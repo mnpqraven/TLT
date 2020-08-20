@@ -243,7 +243,7 @@ always + I + as much + one's thing + (do) give
 
                     もぐ: pluck
                     + かれる: whither (ichidan verb)
-                    もがれた: whithered (receptive helper verb) (look at aozora)
+                    もがれた: whithered (receptive helper verb) (ten-ten-hooking phonetics)
                           はな: flower (noun)
 
                                   そば: side

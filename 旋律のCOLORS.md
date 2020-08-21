@@ -23,6 +23,7 @@ now + for sure + play + this melody
 ```
 I'll for certain play this melody
 ```
+
 自由に色とりどりのCOLORS
 ```
 じゆう: freedom (みずから:self) + (よし:reason)
@@ -33,9 +34,7 @@ I'll for certain play this melody
 freedom + colorful + colors
 ```
 ```
-The colorful (colors of) freedom <?>
 These plentiful colors of freedom
-These colorful colors of freedom
 ```
 
 どこまでも　響け届け鳴らせ
@@ -50,7 +49,7 @@ These colorful colors of freedom
 everywhere + reverberate + reach + can sound
 ```
 ```
-These sound will resonate to the every corner
+These sound will resonate to the very corners
 ```
 
 たとえ明日には打ち捨てられる音楽でも
@@ -84,8 +83,9 @@ If i can just abandon this music tomorrow
 sadness + high | stab + stick into + like + deep blue + indigo
 ```
 ```
-Immense sadness and the piercingly deep indigo <?>
+Immense sadness and the piercingly deep indigo
 ```
+(TL Note: purple and green significancy ? purple representing grief and green representy joy)
 
 あの空も海も　分かり合うにはあまりに広すぎる
 ```
@@ -125,6 +125,8 @@ hatred + heavy  |  anger + resemble + blaze + crimson
 ```
 The deep resentment and fury resembles the blazing crimson
 ```
+(TL Note: red represents anger)
+
 愛の裏側　無理に剥がした瘡蓋で
 ```
 あい: love (noun)
@@ -177,7 +179,7 @@ The colors of melody, strumming chords and intertwining intricately
 everywhere + reverberate + reach + can sound
 ```
 ```
-These sound will resonate to the every corner
+These sound will resonate to the very corners
 ```
 
 このメロディ　自由に　色とりどりのCOLORS
@@ -277,7 +279,6 @@ Even if you only love yourself, everything can still be coloful(COLORS)
 we + live and + cry and + laugh
 ```
 ```
-We're living, we're crying, we're laughing
 We'll live, we'll cry, we'll laugh
 ```
 
@@ -297,18 +298,108 @@ if + tomorrow + soon + never + come + again + even if
 Even if tomorrow will never come
 ```
 
-****
-```
+**VERSE 2**
 喜び眩しく春を迎える　若草のエメラルド
+```
+よろこび: joy, delight (noun)
+    まぶしい: dazzling/radiant (i-adjective)
+    眩しく: dazzling/radiant (adjective to adverb transformation く) (adverb)
+        はる: spring (noun)
+            むかえる: receive/welcome/greet (ichidan verb)
+                  若: young (わか) (i-adjective)
+                  草: grass (くさ) (noun)
+                  若草: fresh grass (noun)
+                        エメラルド: emerald (EMERARUDO) (noun)
+
+joy + radiantly + spring + welcome, (of) green grass + emerald
+```
+```
+Welcome the radiantly joyous springtime, the emeraldy green grass
+```
+
 どんな苦難だろうと　越えて行けると思える輝きで
+```
+どんな: what (kind of)
+    苦: suffering/trial/hardship (くるしい) (i-adjective)
+    難: difficult/impossible (かたい) (i-adjective)
+    苦難: suffering/trial/hardship (くなん) (noun)
+        だろう: seems
+        だろうと: seemingly (adverb transformation と)
+
+                  こえる: cross (over)/pass through (ichidan verb)
+                        いける: go (ichidan verb)
+                            と: and (multiple nouns listing)
+                              おもえる: seem/appear (ichidan verb)
+                                  かがやき: brightness/brilliance (noun)
+                                  輝きで: with/in radiance (answers "with what/where was it done to" で)
+
+what + suffering + seemingly, pass through + go well + and + appear + with brightness
+```
+```
+What seems to be hardship, we'll get through it with (our) radiance
+```
+
 楽しみの色は　太陽に咲くしとやかなライラック
+```
+たのしみ: amusement/enjoyment (noun)
+      いろ: color (noun)
+
+            太: fat (ふとい) (i-adjective)
+            陽: sunshine (ひ) (noun)
+            太陽: sun (たいよう) (noun)
+                  さく: bloom/blossom (verb)
+                      しとやか: graceful (adjective)
+                      しとやかな:
+                            ライラック: lilac (purple) (noun)
+
+enjoyment + color, sun + blossom + graceful + lilac
+```
+```
+The colors of enjoyment, the gracefully blossoming lilac under the sun
+```
+
 音の中で息をしていた　無形の感情
+```
+おと: sound (noun)
+    ちゅう/なか: middle (noun)
+おとのなか:
+      いき: breathing (noun)
+          ます: do
+          していた: was doing (continous past) <?>
+                  無: nul/nothingness (む) (noun)
+                  形: shape/form (かた) (noun)
+                  無形: abstract/spiritual/intangible (むけい) (adjective)
+                        感: emotion
+                        情: feelings
+                        感情: emotion (かんじょう)
+(in) sound + middle + breathing + was knowing, spiritual emotion
+```
+```
+We were breathing in the sound, an abstract emotion
+```
 
 旋律のCOLORS　和音描いて響き合うリフレイン
+```
+旋: rotation/around (めぐる) + 律: rhythm/control
+せんりつ: melody
+
+            わおん: chord (和: harmony/peace [やわらぐ]) + (sound/noise おと)
+                えがく: draw/paint/describe (verb)
+                描いて: and (clause conneting て) (verb)
+                      ひびく: echo/sound/reverberate (verb)
+                      ひびき: verb compound connector
+                          あう: meet/come across
+                            リフレイン: refrain (RIFUREIN) (noun)
+
+melody's + color  |  chord　+ draw + and + reverb + come across + refrain
+```
+```
+The colors melodies, strumming chords and resonating restrains
 ```
 
 
 **CHORUS**
+
 ```
 どこまでも　響け届け鳴らせ
 このメロディ　自由に　色とりどりのCOLORS
@@ -319,19 +410,77 @@ Even if tomorrow will never come
 私たちは生きて泣いて笑う
 たとえ明日がもう二度と来ないとしても
 ```
+```
+These sound will resonate to the very corners
+These melodies, these plentiful colors of freedom
+Let out your voice(timbre), your brushes, right now
+Set the light up, emerge from the shadows and get up and dance
+Palette Major Scale, sing it out! Draw it out!
+Even if you only love yourself, everything can still be coloful(COLORS)
+We'll live, we'll cry, we'll laugh
+Even if tomorrow will never come
+```
+
+**INTERLUDE**
 
 ```
 全ては刹那に沈んで　薄れて
 時に消えていくメロディ
 それでも　ああ、生きて奏で今を
 描き続けたい　自らの持つ力で
-どこまでも　響け届け鳴らせ
-このメロディ　自由に　色とりどりのCOLORS
-私たちは生きていたい　明日も
-きっと新しいメロディに出会えるから
+```
 
+**CHORUS**
+
+どこまでも　響け届け鳴らせ\
+このメロディ　自由に　色とりどりのCOLORS
+```
+These sound will resonate to the very corners
+These melodies, these plentiful colors of freedom
+```
+
+
+私たちは生きていたい　明日も
+```
+わたしたち: us (pronoun)
+      いきる: live (ichidan verb)
+      生きて: live (verb compound て)(ichidan verb)
+      生きていたい: was wanting to live (past continous ている)  <?>
+                  あした: tomorrow (noun)
+                      も: also/too
+
+we + was wanting to + live, tomorrow + too
+```
+```
+We were wanting to live, even (just) tomorrow
+```
+
+きっと新しいメロディに出会えるから
+```
+きっと: surely
+    あたらしい: new
+          メロデイ: melody (noun)
+                  であう: meet/come across
+                  出会える: can (potential verb える)
+                  から: from
+
+surely + new + melody + at + can meet + from
+```
+```
+Surely you'll find a new melody <?>
+```
+
+**OUTRO**
+```
 たとえ明日が　もう二度と来ないとしても
 今生きて、今　その激しい旋律を
+```
+```
 たとえ明日には打ち捨てられる音楽でも
+```
+```
+If i can just abandon this music tomorrow
+```
+```
 今生きて、今　この色とりどりのCOLORS
 ```

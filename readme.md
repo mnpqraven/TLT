@@ -8,11 +8,19 @@ Todo:
 
 - Lalala, Seek a Fever
 - Shout It Out Loud!!!
-- 旋律のCOLORS
-- 祈りの器
 - 世界の選択 - Freedom Paradise-
 
 Index:
 
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)
 - [祈りの器](祈りの器.md)
+- [旋律のCOLORS](旋律のCOLORS.md)
+
+In progress:
+- [旋律のCOLORS](旋律のCOLORS.md)
+
+To proofcheck (not confident):
+- [祈りの器](祈りの器.md)
+
+Almost done:
+- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)

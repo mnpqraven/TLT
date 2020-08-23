@@ -41,15 +41,16 @@ These plentiful colors of freedom
 ```
 どこまでも: everywhere
           ひびく: echo/sound/reverberate (verb)
-          響け: verb compound conneting け
-              とどけ: deliver/reach (ichidan verb)
+          響け: clause conneting け
+              とどく: deliver/reach (ichidan verb)
+              届け:  clause conneting け
                 なる: sound/ring (verb)
-                ならせ: can sound/ring (causative) (verb)
+                ならせ: let sound/ring (causative: make/let some1 do smth) (verb)
 
-everywhere + reverberate + reach + can sound
+everywhere + reverberate + reach + let sound/ring
 ```
 ```
-These sound will resonate to the very corners
+Let it resonate! Let it reach you! Let it ring out!
 ```
 
 たとえ明日には打ち捨てられる音楽でも
@@ -179,7 +180,7 @@ The colors of melody, strumming chords and intertwining intricately
 everywhere + reverberate + reach + can sound
 ```
 ```
-These sound will resonate to the very corners
+Let it resonate! Let it reach you! Let it ring out!
 ```
 
 このメロディ　自由に　色とりどりのCOLORS
@@ -411,7 +412,7 @@ The colors melodies, strumming chords and resonating restrains
 たとえ明日がもう二度と来ないとしても
 ```
 ```
-These sound will resonate to the very corners
+Let it resonate! Let it reach you! Let it ring out!
 These melodies, these plentiful colors of freedom
 Let out your voice(timbre), your brushes, right now
 Set the light up, emerge from the shadows and get up and dance
@@ -423,11 +424,63 @@ Even if tomorrow will never come
 
 **INTERLUDE**
 
-```
 全ては刹那に沈んで　薄れて
+```
+すべて: everything (noun)
+    せつな: moment (noun)
+        に: relative time marker
+          しずむ: sink/go down (verb)
+          しずんで: verb compound connector て
+
+                  うすれる: fade
+                  薄れて: commanding form (sei) OR compound connector <?>
+
+everything + moment + sink + and + fade
+```
+```
+The moment everything falls and fades out
+```
+
 時に消えていくメロディ
+```
+とき: time
+    きえる: go out/vanish (ichidan verb)
+    消えていく: adverb transformation て
+            メロデイ: melody
+```
+```
+As this melody dies out with time
+```
+
 それでも　ああ、生きて奏で今を
+```
+それでも: still/but
+            いきる: live (ichidan verb)
+            生きて: live and (compound connector て)
+                  かなでる: play instrument (ichidan verb)
+                      いま: now
+
+but + live and + play instrument + now
+```
+```
+But still, live and play your instrument now
+```
+
 描き続けたい　自らの持つ力で
+```
+えがく: draw (verb)
+描き: verb compound connector <?>
+  つづける: continue (ichidan verb)
+  続けたい: desire/want to (ichidan verb たい conjugation)
+
+            みずから: one's self/personally (noun)
+            もつ: hold/possess (verb)
+            ちから: power/strength (noun)
+
+draw + and + (want to) continue, possess + one's + strength <?>
+```
+```
+Drawing and keep moving on, that is the strength you possess
 ```
 
 **CHORUS**
@@ -435,7 +488,7 @@ Even if tomorrow will never come
 どこまでも　響け届け鳴らせ\
 このメロディ　自由に　色とりどりのCOLORS
 ```
-These sound will resonate to the very corners
+Let it resonate! Let it reach you! Let it ring out!
 These melodies, these plentiful colors of freedom
 ```
 
@@ -471,16 +524,50 @@ Surely you'll find a new melody <?>
 ```
 
 **OUTRO**
-```
 たとえ明日が　もう二度と来ないとしても
+```
+たとえ: if
+    あした: tomorrow
+
+              に: two (noun)
+              たび: time/occurence
+              にど: twice
+              二度と: never again
+                    くる: come (verb)
+                    来ない: don't come (negative verb)
+                          としても: even if
+```
+```
+Even if tomorrow never arrives again
+```
+
 今生きて、今　その激しい旋律を
 ```
+いま: now
+  いきる: live
+  いきて:
+            その: this
+                はげしい: violent/intense/fierce (i-adjective)
+                      せんりつ: melody (noun)
 ```
+```
+```
+
 たとえ明日には打ち捨てられる音楽でも
-```
 ```
 If i can just abandon this music tomorrow
 ```
-```
+
 今生きて、今　この色とりどりのCOLORS
+```
+いま: now
+  いきる: live
+  いきて:
+            その: this
+            いろ: color
+              とりどり: various
+            色とりどり: colorful (compound adjective)
+```
+```
+Live now, these momentary plentiful colors
 ```

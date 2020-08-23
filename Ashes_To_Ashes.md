@@ -1,4 +1,4 @@
-**Ashes To Ashes**
+## Ashes To Ashes
 
 ```
 Original game: 东方妖妖梦
@@ -7,7 +7,8 @@ Original title: アルティメットトゥルース ～ Ultimate Truth
 Theme: Stage 6 theme
 ```
 
-**VERSE 1**
+#### VERSE 1
+
 遠く霞んでいく　視界を埋めゆく桜雨
 ```
 とおい: far
@@ -46,6 +47,7 @@ Cling to the bloodstained blade
 ```
 
 春よ、いずれ来る春よ
+
 やがて
 ```
 はる: spring (noun)
@@ -63,7 +65,9 @@ Slowly
 ```
 
 
-**CHORUS**
+#### CHORUS
+
+```
 終焉へと導いてたもれ　花吹雪なにをおもふ
 その真を暴け出してたもれ　黒鳳蝶のユラメキ
 
@@ -73,8 +77,11 @@ Ashes to ashes...
 
 春よ、いま来たる春よ
 その身咲かせ
+```
 
-**CHORUS**
+#### CHORUS
+
+```
 終焉へと導いてたもれ　花吹雪なにをおもふ
 その真を暴け出してたもれ　黒鳳蝶のユラメキ
 

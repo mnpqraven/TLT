@@ -1,6 +1,6 @@
-**旋律のCOLORS**
+## 旋律のCOLORS
 
-**Colors of melodies**
+### Colors of melodies
 
 ```
 Original game: 东方辉针城　～ Double Dealing Character
@@ -8,7 +8,8 @@ Original title: 幻想净琉璃
 Theme: Stage 4 Boss - Tsukumo Benben's (九十九弁弁) and Tsukumo Yatsuhashi's (九十九八桥) theme
 ```
 
-**INTRO**
+#### INTRO
+
 今こそ奏でる　このメロディ
 ```
 いま: now
@@ -66,7 +67,8 @@ Let it resonate! Let it reach you! Let it ring out!
 If i can just abandon this music tomorrow
 ```
 
-**Verse 1**
+#### Verse 1
+
 悲しみは高く　突き刺さるような蒼深いインディゴ
 ```
 かなしみ: sadness/grief (noun)
@@ -167,7 +169,8 @@ The colors of melody, strumming chords and intertwining intricately
 ```
 
 
-**CHORUS**
+#### CHORUS
+
 どこまでも　響け届け鳴らせ
 ```
 どこまでも: everywhere
@@ -299,7 +302,7 @@ if + tomorrow + soon + never + come + again + even if
 Even if tomorrow will never come
 ```
 
-**VERSE 2**
+#### VERSE 2
 喜び眩しく春を迎える　若草のエメラルド
 ```
 よろこび: joy, delight (noun)
@@ -399,18 +402,24 @@ The colors melodies, strumming chords and resonating restrains
 ```
 
 
-**CHORUS**
+#### CHORUS
 
-```
+
 どこまでも　響け届け鳴らせ
+
 このメロディ　自由に　色とりどりのCOLORS
+
 ぶちまけた音色　絵の具　今に
+
 光放って　影縁取って　踊りだす
+
 パレットメイジャースケール　流れ歌え描け
+
 好き勝手やったって　なにもかもがCOLORS
+
 私たちは生きて泣いて笑う
+
 たとえ明日がもう二度と来ないとしても
-```
 ```
 Let it resonate! Let it reach you! Let it ring out!
 These melodies, these plentiful colors of freedom
@@ -422,7 +431,7 @@ We'll live, we'll cry, we'll laugh
 Even if tomorrow will never come
 ```
 
-**INTERLUDE**
+#### INTERLUDE
 
 全ては刹那に沈んで　薄れて
 ```
@@ -483,7 +492,7 @@ draw + and + (want to) continue, possess + one's + strength <?>
 Drawing and keep moving on, that is the strength you possess
 ```
 
-**CHORUS**
+#### CHORUS
 
 どこまでも　響け届け鳴らせ\
 このメロディ　自由に　色とりどりのCOLORS
@@ -523,7 +532,7 @@ surely + new + melody + at + can meet + from
 Surely you'll find a new melody <?>
 ```
 
-**OUTRO**
+#### OUTRO
 たとえ明日が　もう二度と来ないとしても
 ```
 たとえ: if

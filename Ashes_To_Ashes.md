@@ -1,5 +1,5 @@
 ## Ashes To Ashes
-
+## (lots of old japanese, come back later)
 ```
 Original game: 东方妖妖梦
  ～ Perfect Cherry Blossom
@@ -67,10 +67,46 @@ Slowly
 
 #### CHORUS
 
-```
 終焉へと導いてたもれ　花吹雪なにをおもふ
-その真を暴け出してたもれ　黒鳳蝶のユラメキ
+```
+おわる: end (verb)
+いずくんぞ: how/why
+しゅうえん: demise (noun)
+    へ: to (directional pointing particle)
+    と: and
+      みちびく: lead the way (verb)
+      導いて: て
+          たも: ash (noun)
+            れ: ？？？？
 
+                はな: flower (noun)
+                  ふぶき: snow storm/blizzard (noun)
+                  なに: what
+                      おもふ: おもう - think (verb)
+                      (deliberately written as ふ according to historical kana orthography)
+```
+```
+```
+
+その真を曝け出してたもれ　黒鳳蝶のユラメキ
+```
+その
+    まこと: truth
+      さらす: open (grave)/expose (verb)
+      暴け: verb compound connector け
+      だして
+      曝け出す:
+      曝け出して:
+        たも:
+          れ:
+
+                くろあげは: spangle (black swallowtail butterfly) (noun)
+                ユラメキ: yurameki ????
+```
+```
+```
+
+```
 Ashes to ashes...
 ああ　冷え切った土の下　染み込んだ涙は
 蠢く根と深く絡み合い

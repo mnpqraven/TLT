@@ -1,5 +1,7 @@
 ## Ashes To Ashes
+
 ## (lots of old japanese, come back later)
+
 ```
 Original game: 东方妖妖梦
  ～ Perfect Cherry Blossom

@@ -25,8 +25,8 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [Ashes To Ashes](Ashes_To_Ashes.md)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
 - [浮珠形ノ運命線　～ White Spirit, Ultra Red](浮珠形ノ運命線　～ White Spirit, Ultra Red.md)
+
 ## In progress
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
 - [浮珠形ノ運命線　～ White Spirit, Ultra Red](浮珠形ノ運命線　～ White Spirit, Ultra Red.md)
 
 ## Postponed
@@ -35,6 +35,7 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 ## To proofcheck (not confident)
 - [祈りの器](祈りの器.md)
 - [旋律のCOLORS](旋律のCOLORS.md)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
 
 ## Almost done
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)

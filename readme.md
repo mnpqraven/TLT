@@ -24,10 +24,10 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [旋律のCOLORS](旋律のCOLORS.md)
 - [Ashes To Ashes](Ashes_To_Ashes.md)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
-- [浮珠形ノ運命線　～ White Spirit, Ultra Red](浮珠形ノ運命線　～ White Spirit, Ultra Red.md)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red.md)
 
 ## In progress
-- [浮珠形ノ運命線　～ White Spirit, Ultra Red](浮珠形ノ運命線　～ White Spirit, Ultra Red.md)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red.md)
 
 ## Postponed
 - [Ashes To Ashes](Ashes_To_Ashes.md)

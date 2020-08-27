@@ -11,6 +11,14 @@ Original title: JP
 Theme: Stage NUMBER isBOSS - EN's (JP) theme
 ```
 
+## Checklist
+- [ ] Sentence structure breakdown
+- [ ] Literature translation
+- [ ] TL note for context
+- [ ] Metadata
+- [ ] Headers
+
+
 ## Todo
 
 - Lalala, Seek a Fever
@@ -36,6 +44,6 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [祈りの器](祈りの器.md)
 - [旋律のCOLORS](旋律のCOLORS.md)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
+- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)
 
 ## Almost done
-- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)

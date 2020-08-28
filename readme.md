@@ -22,16 +22,16 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 
 # Index
 
-- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)
-- [祈りの器](祈りの器.md)
-- [旋律のCOLORS](旋律のCOLORS.md)
-- [Ashes To Ashes](Ashes_To_Ashes.md)
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red.md)
-- [あさきゆめみし](あさきゆめみし.md)
-- [天色の四季](天色の四季.md)
-- [完全超悪アマノジャク](完全超悪アマノジャク.md)
-- [乱-Ran-](乱-Ran-.md)
+- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.md)
+- [祈りの器](祈りの器/祈りの器.md)
+- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.md)
+- [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
+- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
+- [天色の四季](天色の四季/天色の四季.md)
+- [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.md)
+- [乱-Ran-](乱-Ran-/乱-Ran-.md)
 
 # Progression
 

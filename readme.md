@@ -36,13 +36,13 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 # Progression
 
 ## Structure breakdown
-- [あさきゆめみし](あさきゆめみし.md)
 - [完全超悪アマノジャク](完全超悪アマノジャク.md)
 - [乱-Ran-](乱-Ran-.md)
 
 ## Translation and context/literature
 - [天色の四季](天色の四季.md)
 - [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red.md)
+- [あさきゆめみし](あさきゆめみし.md)
 
 ## Postponed
 - [Ashes To Ashes](Ashes_To_Ashes.md)

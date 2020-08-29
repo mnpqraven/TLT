@@ -1,0 +1,445 @@
+
+---
+title:  幽鬼傀儡、あるいはその愛と再生 - Spirit puppet, or perhaps love and rebirth
+author: Othi
+output:
+    pdf_document:
+        latex_engine: xelatex
+header-includes:
+   - \usepackage{xeCJK}
+   - \usepackage{ruby}
+---
+
+```
+Original game: 東方神霊廟　～ Ten Desires
+
+Original title: 古きユアンシェン
+Theme: Stage 4 BOSS - Kaku Seiga's (霍 青娥) theme
+
+Original title: リジッドパラダイス
+Theme: Stage 3 BOSS - Miyako Yoshika's (宮古 芳香) theme
+```
+
+
+#### INTRO
+
+(眠りその時　蘇るよ)
+```
+ねむる： sleep (verb)
+眠り: adverb transformation り
+     その: that (preposition)
+         とき： time (noun)
+
+             よみがえる： resurrect (verb)
+                 よ: affirmation expression
+
+sleep + that time + resurrect
+```
+```
+I'm resurrected as i fall to sleep
+```
+
+雷鳴に開く眼　泥濘んだ土、掴む手
+```
+らいめい: thunder, thunderclap (noun)
+    に: causative particle (by something)
+    ひらく: open (eyes/page) (verb)
+          め: eyeball (but same reading as eye) (noun)
+
+              ぬかるむ: be muddy (verb)
+                ぬかるんだ: -te form of muddy (verb)
+                      つち: dirt, earth (noun)
+                          つかむ: catch,grab
+                              て: hand
+泥糠む needs to have a -te form to be an adjective clause
+
+at-thunder + open + eyes  be muddy + dirt, catch + hand
+```
+```
+My eyes opened to the thunderclap as you catch my hands on the muddy ground
+```
+
+長い爪が抉り　再びを肺を満たす命
+```
+ながい: long (i-adjective)
+    爪 (つめ): nails
+        抉る (えぐる): gouge out
+          り: gouging out (-ing transformer り)
+
+              ふたたび: once again (adverb)
+                    はい: lung (noun)
+                        満たす (みたす): satisfy/fulfill (adverb)
+                              命 (いのち): life(force) (noun)
+
+long nails + gouging out, once again + lung + fulfill + life
+```
+```
+My long nails gouging out this life as it fills my lung once again
+```
+
+#### VERSE 1
+
+なにひとつ、残せはしない　「思い出、愛に名声」
+```
+何一つ: (not) one (adverb)
+            残せ (のこせ): remaining/left-over (noun)
+                  しない: negative form of する: to cause/turn into (conjugation)
+
+                            おもいで: memories (noun)
+                                    あい: love (noun)
+                                      に: target marker particle
+                                        めいせい: reputation/growth (noun)
+
+(not) one + to cause-remaining + not   「memories + love + reputation/growth」
+```
+```
+I won't leave a single thing behind 「Memories are love's signature」
+```
+
+なにひとつ、持ち出せない　「死はすべてを奪う」
+```
+            持ち出す (もちだす): take/bring/carry out (transitive verb)
+            持ち出せない: negative potentical (conjugation)
+
+                            し: death (noun)
+                                すべて: everything
+                                        うばう: snatch/take
+
+(not) one + bring-not  「death + everything + snatch」
+```
+```
+I can't bring a single thing back  「Death taketh everything away」
+```
+
+ただひとつ、確かなもの　　 「さあ、私とおいで」
+```
+ただ: only/however
+            たしか: certain (noun)
+                な: hypothetical particle "-like"
+                  もの: thing (solid) (noun)
+
+                             さあ: now (callout expression)
+                                   わたし: self (feminine) pronoun (noun)
+                                       おいで: come here (expression)
+と:
+
+however + certain + thing  「now + me + come here」
+```
+```
+However there's still one thing for certain 「Now come to me」
+```
+
+私を突き動かす衝動　　　 「貴女は愛しい傀儡」
+```
+    突き (つき): stab/thrust
+      うごく: move
+          かす: formal conjugation of く kana
+              しょうどう: impulse/urge
+
+                      きじょ: lady (noun)
+                            いとしい: lovely (i-adjective)
+                                かいらい: puppet
+i + stab (obj) + move + urge  「as for the lady + lovely + puppet」
+```
+```
+Impelling urges to stab me 「You are my lovely puppet」
+```
+
+#### CHORUS 1
+
+あの日、いつかの日に、私は死に。そして今蘇る
+```
+あの: one (exact)
+    ひ: day
+        いつか: a point in time
+        いつかの日: one day (not exact)
+                  に: relative time marker particle
+                          し: death (noun)
+
+                                そして: and then
+                                      いま: right now/soon
+                                        よみがえる: revive
+
+one day (exact) + one day (not exact) + i + die. Then + soon + revive
+```
+```
+Some day, one day I'll be dead. Then soon i'll return to life
+```
+
+自ら目指す当てもなく、詩も忘れて。
+```
+みずから: one self (noun)
+      めざす: aim at, have an eye on (verb)
+          あてもなく: aim randomly
+
+                      うた: song/poem
+                        も: even/already (flag particle)
+                          わすれる: forget (verb)
+                          わすられて: commanding verb
+```
+```
+Your goal is so aimless, just forget your poem already
+```
+
+何度でも死ぬために。
+```
+なんど: how many times (adjectival noun) (なに: what + たび: times/occurences)
+  でも: as many times (as much context/not "but" context)
+          ために: for the sake of/on behalf of
+```
+```
+Please die for me over and over again
+```
+
+#### BREAKDOWN
+
+（あぁ、可愛いものこの傀儡）　（私のためにキスをして何度でも死ぬがいい）
+```
+      かわい: cute (i-adjective)
+            もの: thing/creature
+                かいらい: doll/puppet (noun)
+
+                              ために: for the sake of
+                                キス: kiss (loaned noun)
+                                キスをして: kiss + desire/want (し kana) +  connector て
+                                        なにど: how many times
+                                            いい: good/fine
+(a + cute + thing + puppet) (my + sake + want to kiss + and + how many times + die + is + good/fine)
+```
+```
+(Aaa, this cute thing of a puppet) (You can kiss me and die for me as many times as you like)
+```
+
+（ずっと私だけのモノにしてあげる）
+```
+ずっと: always
+        だけ: as much as (limitation particle)
+              モノ: thing (loan noun)
+              に: モノ adj to adverb transformation <?>
+                      して: する in て form
+                          あげる: give (verb)
+                          してあげる: "give" actions/do smth for somebody
+always + I + as much + one's thing + (do) give
+```
+```
+I'll have you do everything for me for eternity
+```
+
+（バラバラに壊れても　無残に引きちぎられても）　（彼も臓物も全ては私の物）
+```
+バラバラ: in pieces/scattered
+          こわれる: break (ichidan verb)
+          壊れても: even if break
+                  むざん: cruel (noun)
+                  無残に: cruely (adverb)
+                    ひく: pull (verb)
+                    ひきちぎる: tear off (verb)
+                    ひきちぎられる: is torn off (received verb/passive)
+                    ひきちぎられても: even if torn off (conditional ても conjugation)
+
+                                          かれ: he
+                                              ぞうもつ: entrails (はらわた: entrails/viscerae) + (物: thing/object)
+                                                ぜん: all/whole (prefix)
+                                                全て: everything (noun)
+
+(in pieces + even if break  |  cruely + even if torn off)  (he + too + entrails + too + everything + my + thing)
+```
+```
+(Even if you break me to pieces, even if you tear me off savagely) (All of him/her(miyako's) entrails will still be mine)
+```
+
+（私は認めない）　（誰にも渡さない）
+```
+    みとめる: recognize (ichidan verb)
+        ない: negative
+
+                だれ: who
+                  わたす: hand over
+                    ない: negative
+(i + not + recognize) (i + not + hand over)
+```
+```
+(I won't acknowledge it) (I won't hand (her) over to anyone)
+```
+
+「何も感じなくていいの　捥がれた華	私のそばにおいでなさい」
+```
+なにも: anything
+    かんじる: feel (ichidan verb)
+      な: negative
+        くて: te form of negative verb
+          いい: okay/fine
+
+                    もぐ: pluck
+                    + かれる: whither (ichidan verb)
+                    もがれた: whithered (receptive helper verb) (ten-ten-hooking phonetics)
+                          はな: flower (noun)
+
+                                  そば: side
+                                    おい: come
+                                    おいでなさい: come (formal)
+「anything + (not) to feel + okay to |  whithered + flower | my + side + come (formal)」
+```
+```
+「You don't have to feel anything, o whithered flower, please come by my side」
+```
+「何も思い出さなくていいのよ	貴女ってば、腐って尚更美しいわね」
+```
+なにも: anything
+    おもう: think (verb)
+      です: take out (other-move verb)
+        でさない: negative conjugation
+          でさなくて: clause connecting te form
+            いい: okay/fine
+              よ: affirmation (casual expression)
+
+                        あなた: you
+                          ってば: colloquialism, indicates emotional closeness
+
+                                  くさる: rot (verb)
+                                  腐って: connector て
+                                      尚更 (なおさら): even more
+                                        うつくしい: beautiful (i-adjective)
+                                            わね: isn't it ? (expression)
+
+anything + think + (not) take out + okay/fine + you, rot + even more + beautiful + isn't it
+```
+```
+You don't have to think of anything anymore, aren't you even more beautiful when you rot away ?
+```
+
+紅葉降る秋空見上げては
+```
+こうよう: japanese maple (aka もみじ) (noun) (べに: crimson) + (は: leaf)
+  ふる: fall
+      あき: fall (noun)
+      すら: sky
+        あきぞら: autumn sky (ten-ten-hooking) (noun)
+          み: eyes
+          あげる: raise (self-move verb)
+          みあげる: lookup (self-move verb)
+          ては: clause connector て
+japanese maple + fall + autumn sky + eyes + lookup
+```
+```
+As i looked up at the falling maple in the autumn sky,
+```
+
+誰か、誰かに呼ばれているような気がして
+```
+だれか: someone
+          よぶ: call out (verb)
+          呼ばれている: calling out (continious ている)
+              ような: like, similar
+                き: mind, spirit (noun)
+                する: do (verb)
+                ような気がする: have a thought/feeling that (expression)
+some one + calling out + have a feeling that
+```
+```
+came the feeling as if someone was calling out to me
+```
+
+きっとここに眠る私のために、ひとり泣いてくれた
+```
+きっと: surely
+    ここ: this place
+          ねむる: sleep (die in this context) (verb)
+                ため: sake
+
+                      ひとり: alone
+                        なく: cry
+                          泣いてる: crying (continious verb)
+                          泣いてくれた: was crying (past continious verb)
+surely + this place + die + my sake, alone + was crying
+```
+```
+who was surely crying when i was laid to rest here.
+```
+
+優しい人の声なんだろう
+```
+やさし: kind (i-adjective)
+    ひと: person (noun)
+        こえ: voice
+        だろう: wonder/isn't it ? (self questioning)(expression)
+
+kind + person's + voice + wonder
+```
+```
+I wonder whose that person's voice was
+```
+
+#### CHORUS
+
+あの日、いつかの日に、私は死に。そして今蘇る
+
+自ら目指す当てもなく、詩も忘れて。
+
+何度でも死ぬために。
+```
+Some day, one day I'll be dead. Then soon i'll return to life
+Your goal is so aimless, just forget your poem already
+Please die for me over and over again
+```
+
+#### VERSE 2
+
+死に見初められた傀儡の詩　逃れられない鳥籠
+```
+し: death (noun)
+    み: see
+    はじめ: beginning
+    みぞめる love at first sight (ichidan verb)
+    溝められる: receptive helper form (passive)
+    溝められた: past pense
+              かいらい: puppet (noun)
+                  し: poem (noun)
+
+                      のがれる: escape (ichidan verb)
+                      逃れらる: receptive helper form (passive)
+                      逃れられない: receptive helper form (passive negative)
+                                とり: bird (noun)
+                                かご: cage (noun)
+                                鳥籠: birdcage (noun)
+death + love at first sight (past) + puppet + poem  |  escape + (not) (passive) + birdcage
+```
+```
+A poem about the puppet that fell in love at first sight with death. Such is the unescapable birdcage
+```
+
+夢見て、その眠り浅く　転寝のよう
+```
+ゆめ: dream (noun)
+み: eye
+ゆめみる: dream of
+夢見て: connecting clause て
+      その: this
+          ねむる: sleep/die (verb)
+          眠り: compound り (adverb)
+          あさい: shallow
+          眠り浅く: shallow sleep/sleep shallowly
+
+                    ごろね: falling asleep/dozing off (noun)
+                    よう: appear/seems to be
+
+dream and + this + sleep shallowly + seems + falling asleep
+```
+```
+Her dreaming seemingly light as a nap
+```
+
+引き伸ばされる魂
+```
+ひく: pull
+引き: verb compound
+    のばす: extend (verb)
+      伸ばされる: receptive helper form (passive)
+          たましい: soul (noun)
+
+pull + extend (passive)+ soul
+```
+```
+The ever expanding(resurrecting) spirit
+```
+

@@ -1,1 +1,7 @@
 *.log
+*.aux
+*.out
+*.upa
+*.synctex.gz
+*.upa
+*.upb

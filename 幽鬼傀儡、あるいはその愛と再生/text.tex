@@ -13,7 +13,7 @@
 \newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
 
 % commands for setting furigana below kanji
-\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
     %\unskip
     \begin{tikzpicture}[baseline=(kanji.base)]
         \node(kanji)[
@@ -66,10 +66,64 @@
     %\ignorespaces
 }
 
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+\title{幽鬼傀儡、あるいはその愛と再生 \\ Spirit puppet, or perhaps love and rebirth}
 \begin{document}
+
+\maketitle
+\author{Akatsukirecords - Translated by Othi}
+
+\section{Origin}
+Original game: JP ～ Ten Desires\\
+
+Original title: 古きユアンシェン \\
+Theme: Stage 4 BOSS - Kaku Seiga's (霍 青娥) theme \\
+
+Original title: リジッドパラダイス \\
+Theme: Stage 3 BOSS - Miyako Yoshika's (宮古 芳香) theme \\
+
 Japanese uses different alphabets, one of those is \furigana{漢字}{かんじ} (Kanji).
 
-rstdrstdsrtd
+Kanji can have different readings: \furiganaAboveBelow{日}{にち}{ひ}. only above  \furiganaAboveBelow{日}{にち}{}.
 
-Kanji can have different readings: \furiganaAboveBelow{日}{にち}{ひ}.
+\furiganaBelow{日}{にち}
+
+\section{INTRO}
+
+(\furigana{眠}{ねむ}りその時　蘇るよ)
+
+
+%
+%ねむる： sleep (verb)
+%眠り: adverb transformation り
+%     その: that (preposition)
+%         とき： time (noun)
+ %            よみがえる： resurrect (verb)
+ %                よ: affirmation expression
+%sleep + that time + resurrect
+%
+```
+I'm resurrected as i fall to sleep
+```
+
 \end{document}

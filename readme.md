@@ -2,6 +2,7 @@
 
 - A beginner's attempt at translating Touhou lyrics with my current knowledge in the Japanese grammar.
 - Raw translations are in `.md` and then ported to `.rmd` and `.latex` after proofchecking.
+  - `.latex` might be usuable as RStudio env is unusable for now
 - Will be corrected along the way as I gain more knowledge on Japanese.
 - **Disclaimer**: do note in mind this translation project is maintained whilst I learn Japanese from the square one, not every part of the translation is bound to be exactly correct, as analyzing the sentences' structures and expanding vocabulary is prioritized. Context and literature representation is also the focal point of this translation project.
 

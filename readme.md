@@ -52,6 +52,8 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [祈りの器](祈りの器.md)
 - [旋律のCOLORS](旋律のCOLORS.md)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
-- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生.md)
 
-## Almost done/Metadata/TL Notes
+## Almost done/Metadata/TeX port
+
+## Translation and closing notes
+- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)

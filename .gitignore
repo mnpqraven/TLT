@@ -1,7 +1,5 @@
-*.log
-*.aux
-*.out
-*.upa
-*.synctex.gz
-*.upa
-*.upb
+*/
+!.tex
+!.rmd
+!.md
+!.pdf

@@ -46,14 +46,14 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [乱-Ran-](乱-Ran-/乱-Ran-.md)
 
 ## Postponed
-- [Ashes To Ashes](Ashes_To_Ashes.md)
+- [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)
 
-## To proofcheck (currently not confident)
-- [祈りの器](祈りの器.md)
-- [旋律のCOLORS](旋律のCOLORS.md)
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ.md)
+## To proofcheck
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
 
 ## Almost done/Metadata/TeX port
+- [祈りの器](祈りの器/祈りの器.md)
 
 ## Translation and closing notes
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
+- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.md)

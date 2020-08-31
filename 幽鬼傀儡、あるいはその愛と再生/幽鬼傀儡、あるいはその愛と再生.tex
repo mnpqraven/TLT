@@ -1,0 +1,214 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\setlength{\parskip}{0.5em}
+
+\title{幽鬼傀儡、あるいはその愛と再生 \\ Spirit puppet, or perhaps love and rebirth}
+\author{Original Source: 暁records - Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 東方神霊廟　～　Ten Desires \\
+Original title: 古きユアンシェン \\
+Theme: Stage 4 BOSS - Kaku Seiga's (霍　青娥) theme \\
+Original title: リジッドパラダイス \\
+Theme: Stage 3 BOSS - Miyako Yoshika's (宮古　芳香) theme
+
+\section{Summary}
+
+\pagebreak
+
+\section{Lyric}
+
+\subsection{Intro}
+
+(\furigana{眠}{ねむ}りその\furigana{時}{とき}　\furigana{蘇る}{よみがえ}よ) \\
+\begin{comment}
+ねむる： sleep (verb)
+眠り: adverb transformation り
+     その: that (preposition)
+         とき： time (noun)
+            よみがえる： resurrect (verb)
+                よ: affirmation expression
+sleep + that time + resurrect
+\end{comment}
+I'm resurrected as i fall to sleep
+
+\furigana{雷鳴}{らいめい}に\furigana{開}{ひら}く\furigana{眼}{め}　\furigana{泥濘}{ぬかる\(む\)}んだ\furigana{土}{つち}、\furigana{掴}{つか}む\furigana{手}{て} \\
+My eyes opened to the thunderclap as you catch my hands on the muddy ground
+
+
+\furigana{長}{なが}い\furigana{爪}{つめ}が\furigana{抉}{えぐ}り　\furigana{再}{ふたた}を\furigana{肺}{はい}を\furigana{満}{み}たす\furigana{命}{いのち} \\
+These long nails gouging out this life as it fills my lung once again
+
+\subsection{Verse \#1}
+
+なにひとつ、\furigana{残}{のこ}せはしない　「\furigana{思}{おも}い\furigana{出}{で}、\furigana{愛}{あい}に\furigana{名声}{めいせい}」 \\
+I won't leave a single thing behind 「Memories are love's signature」
+
+なにひとつ、\furigana{持}{も}ち\furigana{出}{だ}せない　「\furigana{死}{し}はすべてを\furigana{奪}{うば}う」 \\
+I can't bring a single thing back  「Death taketh everything away」
+
+ただひとつ、\furigana{確}{たし}かなもの　　 「さあ、私とおいで」 \\
+However there's still one thing for certain 「Now come to me」
+
+私を\furigana{突}{つ}き\furigana{動}{うご}かす\furigana{衝動}{しょうどう}　　　 「\furigana{貴女}{きじょ}は\furigana{愛}{いと}しい\furigana{傀儡}{かいらい}」 \\
+Impelling urges to stab me 「You are my lovely puppet」
+
+\subsection{Chorus \#1}
+
+あの\furigana{日}{ひ}、いつかの\furigana{日}{ひ}に、私は\furigana{死}{し}に。そして\furigana{今}{いま}\furigana{蘇}{よみがえ}る \\
+Some day, one day I'll be dead. Then soon i'll return to life.
+
+\furigana{自}{みずか}ら\furigana{目指}{めざ}す\furigana{当}{あ}てもなく、\furigana{詩}{うた}も\furigana{忘}{わす}れて。 \\
+Your goal is so aimless, just forget your poem already
+
+\furigana{何度}{なんど}でも\furigana{死}{し}ぬために。 \\
+Please die for me over and over again
+
+\subsection{Breakdown \#1}
+
+（あぁ、\furigana{可愛}{わかい}いものこの\furigana{傀儡}{かいらい}）　（私のためにキスをして\furigana{何度}{なんど}でも\furigana{死}{し}ぬがいい） \\
+(Aaa, this cute thing of a puppet) (You can kiss me and die for me as many times as you like)
+
+（ずっと私だけのモノにしてあげる） \\
+I'll have you do everything for me for eternity
+
+（バラバラに\furigana{壊}{こわ}れても　\furigana{無残}{むざん}に\furigana{引}{ひ}きちぎられても）　（\furigana{彼}{かれ}も\furigana{臓物}{ぞうもつ}も\furigana{全}{すべ}ては私の\furigana{物}{もの}） \\
+(Even if you break me to pieces, even if you tear me off savagely) (All of him/her (miyako's) entrails will still be mine)
+
+（私は\furigana{認}{みと}めない）　（\furigana{誰}{だれ}にも\furigana{渡}{わた}さない） \\
+(I won't acknowledge it) (I won't hand (her) over to anyone)
+
+「\furigana{何}{なに}も\furigana{感}{かん}じなくていいの　\furigana{捥}{もぐ}がれた\furigana{華}{はな}	私のそばにおいでなさい」 \\
+「You don't have to feel anything, o whithered flower, please come by my side」
+
+「\furigana{何}{なに}も\furigana{思}{おも}い\furigana{出}{だ}さなくていいのよ	\furigana{貴女}{あなた}ってば、\furigana{腐}{くさ}って\furigana{尚更}{なおさら}\furigana{美}{うつく}しいわね」 \\
+You don't have to think of anything anymore, aren't you even more beautiful when you rot away?
+
+\furigana{紅葉}{こうよう}\furigana{降}{ふ}る\furigana{秋空}{あきぞら}\furigana{見上}{みあ}げては \\
+As i looked up at the falling maple in the autumn sky,
+
+\furigana{誰}{だれ}か、\furigana{誰}{だれか}かに\furigana{呼}{よ}ばれているような\furigana{気}{き}がして \\
+came the feeling as if someone was calling out to me
+
+きっとここに\furigana{眠}{ねむ}る私のために、ひとり\furigana{泣}{な}いてくれた \\
+who was surely crying when i was laid to rest here.
+
+\furigana{優}{やさ}しい人の\furigana{声}{こえ}なんだろう \\
+I wonder whose that person's voice was
+
+\subsection{Chorus \#2}
+
+あの\furigana{日}{ひ}、いつかの\furigana{日}{ひ}に、私は\furigana{死}{し}に。そして\furigana{今}{いま}\furigana{蘇}{よみがえ}る \\
+Some day, one day I'll be dead. Then soon i'll return to life.
+
+\furigana{自}{みずか}ら\furigana{目指}{めざ}す\furigana{当}{あ}てもなく、\furigana{詩}{うた}も\furigana{忘}{わす}れて。 \\
+Your goal is so aimless, just forget your poem already
+
+\furigana{何度}{なんど}でも\furigana{死}{し}ぬために。 \\
+Please die for me over and over again
+
+\subsection{Verse \#2}
+
+\furigana{死}{し}に\furigana{見初}{みぞ}められた\furigana{傀儡}{かいらい}の\furigana{詩}{うた}　\furigana{逃}{のが}れられない\furigana{鳥籠}{とりかご} \\
+A poem about the puppet that fell in love at first sight with death. Such is the unescapable birdcage
+
+\furigana{夢}{ゆめ}\furigana{見}{み}て、その\furigana{眠}{ねむ}り\furigana{浅}{あさ}く　\furigana{転寝}{ごろね}のよう \\
+Her dreaming seemingly light as a nap
+
+\furigana{引}{ひ}き\furigana{伸}{の}ばされる\furigana{魂}{たみしい} \\
+The ever \furiganaBelow{expanding}{resurrecting} spirit
+\end{document}

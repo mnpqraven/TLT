@@ -3,6 +3,6 @@
 !*/*.md
 !*/*.rmd
 !*/*.pdf
-!*/*.otf
+!font/*.otf
 !*/*.flac
 !*/*.mp3

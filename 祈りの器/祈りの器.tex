@@ -1,0 +1,219 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\setlength{\parskip}{0.5em}
+
+\title{祈りの器 \\ Vessel for prayers}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 東方鬼形獣　～　Wily Beast and Weakest Creature \\
+
+\noindent Original title: エレクトリックヘリテージ　～　Electric Heritage \\
+Theme: Stage 6 theme
+
+\noindent Original title: 偶像に世界を委ねて　～　Idoratrize World \\
+Theme: Stage 6 Boss --- Haniyasushin Keiki's (埴安神　袿姫) theme \\
+
+\section{Summary}
+
+\pagebreak
+
+\section{Lyric}
+
+\begin{verbatim}
+Vessel can be inferred as the idols from mayuki's idol army, which is powered by faith directed to them
+\end{verbatim}
+\subsection{Verse \#1}
+\furigana{空}{から}っぽの\furigana{瞳}{ひとみ}に\furigana{浮}{う}かんでは\furigana{消}{き}えた \\
+It kept coming in and out of sight of these empty pupils
+
+\furigana{交}{ま}わらない\furigana{誰}{だれ}かの\furigana{影}{かげ} \\
+I don't come across any shadow
+
+\furigana{笑}{わら}っている　どこかで \\
+As i'm laughing
+
+\furigana{遠}{とお}のいていく\furigana{音影}{おんがく} \\
+There's music from somewhere faraway
+
+
+ここに\furigana{置}{お}き\furigana{去}{さ}りの\furigana{僕}{ぼく}らは \\
+We are left behind here
+
+
+\subsection{Chorus \#1}
+どうか、この\furigana{祈}{いの}りが\furigana{届}{とど}くのなら \\
+If this prayer can somehow reach you
+
+
+まだ\furigana{神}{かみ}がいるなら \\
+If god still exists
+
+なにか\furigana{信}{しん}じられる\furigana{希望}{きぼう}を　\furigana{光}{ひかり}を \\
+Something that we can believe in, perhaps a hope, perhaps some light
+
+ああ、\furigana{空}{そら}に\furigana{星}{ほし}は\furigana{絶}{た}えて \\
+There, died out stars in the sky
+
+
+\furigana{花}{はな}は\furigana{色}{いろ}を\furigana{失}{うしな}ってしまうから \\
+Flowers sadly void of color
+
+\furigana{奪}{うば}えない\furigana{祈}{いの}りの\furigana{器}{うしわ}を \\
+The vessel for prayers that can't be taken away
+
+\subsection{Verse \#2}
+\furigana{悲}{かな}しみを\furigana{量}{はか}って\furigana{比}{くら}べて\furigana{競}{きそ}って \\
+Weigh your grief, appraise it, contend it
+
+
+\furigana{例}{たと}え「\furigana{幸福}{こうふく}だ」って\furigana{言}{い}われたって \\
+If you have said `This is a blessing'
+
+
+\furigana{浮}{う}かんだ\furigana{血}{ち}は\furigana{癒}{い}えない \\
+This spewed blood won't return
+
+
+\furigana{傷口}{きずぐち}はふさがらない \\
+These wounds won't be closed
+
+\furigana{頬}{ほお}を\furigana{流}{なが}れ\furigana{渇}{かわ}いた\furigana{涙}{なみだ} \\
+We craved for these streams of tears running down your cheeks
+
+\subsection{Chorus \#2}
+どうか、この\furigana{祈}{いの}りが\furigana{届}{とど}くのなら \\
+If this prayer can somehow reach you
+
+まだ\furigana{神}{かみ}がいるなら
+If god still exists
+
+なにか\furigana{信}{しん}じられる\furigana{希望}{きぼう}を　\furigana{光}{ひかり}を \\
+Something that we can believe in, perhaps a hope, perhaps some light
+
+ああ、\furigana{空}{そら}に\furigana{星}{ほし}は\furigana{絶}{た}えて \\
+There, died out stars in the sky
+
+\furigana{花}{はな}は\furigana{色}{いろ}を\furigana{失}{うしな}ってしまうから \\
+Flowers sadly void of color
+
+\furigana{奪}{うば}えない\furigana{祈}{いの}りの\furigana{器}{うしわ}を \\
+The vessel for prayers that can't be taken away
+
+\subsection{Verse \#3}
+\furigana{神}{きま}\furigana{様}{さま}、この\furigana{祈}{いの}りが　この\furigana{想}{おも}いが \\
+O God, these prayers, these thoughts
+
+
+まだ\furigana{聞}{き}こえるのなら \\
+If those can still be heard
+
+\furigana{力}{ちから}なき\furigana{僕}{ぶく}らに\furigana{最後}{さいご}の\furigana{救}{すく}いを \\
+We'll loudly cry out for your final salvation
+
+ああ、\furigana{空}{そら}に\furigana{星}{ほし}\furigana{輝}{かがや}き \\
+There, radiant stars in the sky
+
+\furigana{花}{はな}の\furigana{色}{いろ}は\furigana{数}{かず}え\furigana{切}{き}れないはず \\
+The flower's countless amount of color
+
+\furigana{信}{しん}じられるものがあるなら \\
+If such believing creature exists
+
+\furigana{奪}{うば}えない\furigana{祈}{いの}りの\furigana{器}{うつわ}よ \\
+The vessel for prayers will never be taken away
+\end{document}

@@ -40,20 +40,20 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 - [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.md)
 
 ## Translation and context/literature
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
-- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
+- [天色の四季](天色の四季/天色の四季.md)
 - [乱-Ran-](乱-Ran-/乱-Ran-.md)
 
 ## Postponed
 - [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)
 
 ## To proofcheck
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
 
 ## Almost done/Metadata/TeX port
-- [祈りの器](祈りの器/祈りの器.md)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
+- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
 
 ## Translation and closing notes
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
-- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.md)
+- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
+- [祈りの器](祈りの器/祈りの器.pdf)

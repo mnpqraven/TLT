@@ -5,6 +5,7 @@
 Original game: 秋霜玉
 Original title: 二色蓮花蝶 ～ Red and White
 Theme: 蓬莱人形　～　Dolls in Pseudo Paradise
+(Original source: 二色蓮花蝶　～ Ancients - Reimu Hakurei's theme)
 ```
 
 #### INTRO
@@ -14,11 +15,12 @@ Theme: 蓬莱人形　～　Dolls in Pseudo Paradise
 ちょうちょう: butterfly (noun)
             この: this
                 ゆび: finger (noun)
-                  とまれ: stop (rest)
+                  とまれ: stop (rest) (imperative verb)
 
 butterfly + butterfly + this + finger + stop
 ```
 ```
+Butterfly, butterfly, rest on these fingers of mine
 ```
 
 蝶々、蝶々　空へとのぼれ
@@ -31,6 +33,7 @@ butterfly + butterfly + this + finger + stop
 butterfly + butterfly + sky (to the) + climb
 ```
 ```
+Butterfly, butterfly, flutter away to the sky
 ```
 
 #### VERSE 1
@@ -47,15 +50,18 @@ butterfly + butterfly + sky (to the) + climb
                             そら: sky (noun)
                                 まう: dance/flutter (verb)
 
-moment, pitch black + shooting starm red + feather + (in) sky + flutter
+moment, pitch black + shooting star; red + feather + (in) sky + flutter
 ```
 ```
+At this moment, jet back shooting star and crimson fathers fluttering in the sky
 ```
 
 混ざる　極彩のスケイル　宿命抗えない蝶よ
 ```
 まざる: mix with/blend with (verb)
 
+        ごくさい: vivid (noun)
+              セケイル: scales (SUKEIRU)
 
                         しゅくめい: fate/destiny (noun)
                             あらがう: go against/oppose (verb)
@@ -63,6 +69,7 @@ moment, pitch black + shooting starm red + feather + (in) sky + flutter
                                     ちょう: butterfly (noun)
 ```
 ```
+Blended in vivid scales, a butterfly that can't defy its fate
 ```
 
 
@@ -73,23 +80,25 @@ moment, pitch black + shooting starm red + feather + (in) sky + flutter
 
             しんじつ: truth/reality (noun)
             と: exclusive "and"
-            truth + and + (nothing) (absolute)
+            truth + and + (next line)
 ```
 ```
-
+The truth that's been bestowed upon
 ```
 
 信じるべき　理に仕えし防人
 ```
 しんじる: believe (ichidan verb)
-べき: should/must
+      べき: should/must/able
 
-            り: reason/locic (noun)
-            しかえる: serve/work for (ichidan verb)
-                    し: <?>
-                      さきもり: chinese soldiers (noun)
+            ことわり: reason/logic (noun)
+                しかえる: serve/work for (ichidan verb)
+                    し: on top of that
+                      さきもり: soldiers/guards (noun)
+            soldiers who work for reason - man of reason
 ```
 ```
+and the trustworthy soldier of reason
 ```
 
 #### CHORUS
@@ -99,8 +108,8 @@ moment, pitch black + shooting starm red + feather + (in) sky + flutter
 うく: floating (verb)
 たま: pearl/gem (noun)
 かたち: form/shape (noun)
-うくたまがた: floating gem silhouette (noun)
-      ノ:
+うくたまがた: form of floating gem (noun) (specific context: reimu's yin yang orbs)
+      ノ: of/categorization
         たこぶ: luck/fate (noun)
         いのち: fate/destiny (noun)
         すじ: line (noun)
@@ -110,29 +119,37 @@ moment, pitch black + shooting starm red + feather + (in) sky + flutter
                       みこ: shrine maiden (noun)
 ```
 ```
+The spinning yin-yang orbs of fate; O shrine maiden of paradise
 ```
 
 羊飼いに迷いはなく　その宿命を生きる　Never End
 ```
-ひつじかい: shepherd (noun) <?>
-        まよい: hesitation/illusion/inability to reaech enlightenment (noun)
-              ない: negative
-              なく:
+ひつじかい: shepherd (noun)
+        まよい: hesitation/illusion/inability to reaech enlightenment(lost) (noun)
+              なく: cry (verb)
 
                     その: this
                         しゅくめい: fate/destiny (noun)
                               いきる: live (ichidan verb)
 ```
 ```
+The lost shepherd cries; Accept your fate; Never End
 ```
 
 浮珠形ノ境界線　揺れる危うい均衡に
 ```
+うく: floating (verb)
+たま: pearl/gem (noun)
+かたち: form/shape (noun)
+うくたまがた: form of floating gem (noun) (specific context: reimu's yin yang orbs)
+      ノ: of/categorization
+        きょうかいせん: boundary line (noun)
                 ゆれる: shake/waver (ichidan verb)
                       あやうい: dangerous (i-adjective)
                             きんこう: balance (noun)
 ```
 ```
+The spinning yin-yang orbs of boundary; The dangerously wavering balance
 ```
 
 いつまで人でいられると、この因果の上で？
@@ -152,6 +169,7 @@ moment, pitch black + shooting starm red + feather + (in) sky + flutter
 how long + person + can exist + and + this + karma + (from) above
 ```
 ```
+For how long can man(I) still live, with this karma from above?
 ```
 
 White Spirit, Ultra Red
@@ -177,14 +195,14 @@ Butterfly, butterfly, flutter towards the sky
 蝶々、蝶々　二つに裂けた
 ```
 ちょうちょう: butterfly (noun)
-            ふたつ: two people/us two (noun)
+            ふたつ: two people/us two/two halves (noun)
                   さける: split/tear (ichidan verb)
                   避けた: split/torn (past tense verb)
 
-butterfly + butterfly, us two + torn
+butterfly + butterfly, two + torn
 ```
 ```
-Butterfly, butterfly, torn us two apart
+Butterfly, butterfly, torn in half
 ```
 
 自由意思の選択も　授かりし身体感情も
@@ -200,10 +218,11 @@ Butterfly, butterfly, torn us two apart
                 　さずかり: (verb compound connector り)
                           しんたい: body (noun)
                               かんじょう: feelings/emotion (noun)
-                                  も:
+                                  も: as well as (double も structure)
 incompleted clause, next line ?
 ```
 ```
+Freedom of choice, as well as a body blessed with emotions
 ```
 全てさだめられた　予定調和の理想郷
 ```
@@ -219,12 +238,12 @@ incompleted clause, next line ?
                             ことわり: logic/reason
                             おもう: thought/idea
                             さと: village/home town
-                            りそうきょう: utopia (ideally logical town)
+                            りそうきょう: utopia (ideally logical town) (noun)
 
 everything + has been decided + of harmony + utopia
 ```
 ```
-The harmony of this utopia has brought peace to everything
+The sung harmony in this utopia has brought peace to everything
 ```
 
 与えられた　真実が
@@ -237,23 +256,25 @@ The harmony of this utopia has brought peace to everything
 granted + truth + is
 ```
 ```
-The granted truth is
+The truth that's been bestowed upon
 ```
 
 血と流れて　疑いをもたらす時まで
 ```
 ち: blood (noun)
-ながれる: flow/run(liquid) (ichidan verb)
-流れて: clause connector て
+  と: exclusive and (absolute context)
+    ながれる: flow/run(liquid) (ichidan verb)
+    流れて: clause connector て
 
             うたがい: doubt/skepticism (noun)
                   もたらす: bring/take/bring about (verb)
                           とき: time (noun)
                             まで: until
 
-blood + flows and, doubt + comes + until the time
+blood + flows, doubt + comes + until the time
 ```
 ```
+is this stream of blood, and the skepticism that comes with time
 ```
 
 
@@ -261,6 +282,7 @@ blood + flows and, doubt + comes + until the time
 
 浮珠形ノ運命線　楽園の巫女　Ultra Red
 ```
+The spinning yin-yang orbs of fate; O shrine maiden of paradise
 ```
 ロールプレイを繰り返す天地　その箱庭の鍵はButterfly
 ```
@@ -281,12 +303,13 @@ blood + flows and, doubt + comes + until the time
 roleplay + repeat + nature, that + miniature garden's + key + is + butterfly
 ```
 ```
-Repeat the roles of heaven and earth, with butteflies being the key to this miniature garden
+Repeat the roles of heaven and earth, with buttefly as the key to this miniature garden
 ```
 浮珠形ノ境界線　揺れる危うい均衡に
 ```
+The spinning yin-yang orbs of boundary; The dangerously wavering balance
 ```
-いつまで人でいられると　この因果の上で？
+いつまで人でいられると、この因果の上で？
 ```
 いつ: when
 いつまで: until when
@@ -301,7 +324,7 @@ Repeat the roles of heaven and earth, with butteflies being the key to this mini
 until when + human + can exist, this + karma + (position) above
 ```
 ```
-Until when can human exist, with this karma from above ?
+For how long can man(I) still live, with this karma from above?
 ```
 White Spirit, Ultra Red
 
@@ -314,9 +337,10 @@ White Spirit, Ultra Red
 
             げんじつ: truth/reality (noun)
 
-incompleted clause ?
+incompleted clause
 ```
 ```
+(As for) The truth that's been bestowed upon
 ```
 いつの日にか　少女に永遠託すだろう
 ```
@@ -326,16 +350,18 @@ incompleted clause ?
 
             　しょうじょ: woman/girl (noun)
                     えいえん: eternity/forever (noun)
-                    たくす: entrust (verb)
-                            だろう:
+                        たくす: entrust (verb)
+                            だろう: probably/seems (affirmation with uncertainty expression)
 ```
 ```
+Maybe one day, a girl(she) will be entrusted with it for eternity
 ```
 
 #### CHORUS 3
 
 浮珠形ノ運命線　楽園の巫女　Ultra Red
 ```
+The spinning yin-yang orbs of fate; O shrine maiden of paradise
 ```
 行き着く先が何処だって　与えられた道生きてConviction
 ```
@@ -353,29 +379,31 @@ incompleted clause ?
                                   みち: way/road (noun)
                                   　いきる: live (verb)
                                   　生きて: live and (clause connector て) <?>
-incompleted clause <?>
+incompleted clause
 
 go and reach + before + is + where + but, was granted + the way + of life + and + conviction
 ```
 ```
+Even when where i go and move foward is unknown, even then, To pave the road to live with conviction
 ```
 守るべきものがあるから　知りたい明日があるから
 ```
 まもる: protect (verb)
-べき: should/ought to (aux)
-もの: beings/creatures (noun)
-ある: exists (verb)
-から: from (now on)
+    べき: should/ought to/able
+        もの: beings/creatures (noun)
+              ある: exists (verb)
+                  から: because
 
-しる: know (ichidan verb)
-知りたい: want to know (desire verb)
-あした: tomorrow (noun)
-ある: exists (verb)
-から: from (now on)
+                        しる: know (ichidan verb)
+                        知りたい: want to know (desire verb)
+                                あした: tomorrow (noun)
+                                      ある: exists (verb)
+                                          から: because
 
-(conviction) + protect + ought to + life + from now on, (conviction) + want to know + tomorrow + from now on
+(conviction) + protect + ought to + life + because, (conviction) + want to know + tomorrow + because
 ```
 ```
+to protect those in need, (conviction) to look foward to what tomorrow brings
 ```
 私が人であるうちは　好きにさせないからね
 ```
@@ -394,6 +422,6 @@ go and reach + before + is + where + but, was granted + the way + of life + and 
 (i + am + man) + posess + among + as for, love + can't make + <?>
 ```
 ```
-As for what i possess as a human(woman), <?>
+As for what i possess as a human(woman), love won't be one of them, isn't it ?
 ```
 White Spirit, Ultra Red

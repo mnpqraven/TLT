@@ -53,7 +53,7 @@ Butterfly, butterfly, flutter away to the sky
 moment, pitch black + shooting star; red + feather + (in) sky + flutter
 ```
 ```
-At this moment, jet back shooting star and crimson fathers fluttering in the sky
+At this moment, jet back shooting star and crimson feathers fluttering in the sky
 ```
 
 混ざる　極彩のスケイル　宿命抗えない蝶よ
@@ -92,7 +92,7 @@ The truth that's been bestowed upon
       べき: should/must/able
 
             ことわり: reason/logic (noun)
-                しかえる: serve/work for (ichidan verb)
+                つかえる: serve/work for (ichidan verb)
                     し: on top of that
                       さきもり: soldiers/guards (noun)
             soldiers who work for reason - man of reason
@@ -335,7 +335,7 @@ White Spirit, Ultra Red
 あたえる: give/grant (ichidan verb)
 与えられた: been given/been granted (receptive past tense verb)
 
-            げんじつ: truth/reality (noun)
+            しんじつ: truth/reality (noun)
 
 incompleted clause
 ```

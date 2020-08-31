@@ -1,0 +1,211 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\setlength{\parskip}{0.5em}
+
+\title{天磐船ヨ天ヘ昇レ \\ Heavenly boat, climbimg towards the high heavens}
+\author{Original Source: 暁records --- Translated by: Othi}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 東方神霊廟　～　Ten Desires
+
+\noindent Original title: 大神神話伝　～　Omiwa Legend \\
+Theme: Stage 5 Boss --- Mononobe no Futo's (物部 布都) theme
+
+\noindent Original title: 夢殿大祀廟　～　The Hall of Dreams' Great Mausoleum \\
+Theme: Stage 5 Theme
+
+\section{Summary}
+Title background
+
+① 空中を飛行する堅固な船。「日本書紀」では、高天原から下界に降りる際に用いた船として伝えている。 \\
+※書紀（720）神武天皇即位前甲寅年「天磐船(あまのいはふね)に乗りて飛び降る者有りといひき」 \\
+※日本紀竟宴和歌‐延喜六年（906）「そらみつに阿麻能伊婆布然(アマノイハフネ)くだししはひじりの御代を渡すとてなり〈藤原忠紀〉」 \\
+② 天の川にあるという想像上の船。 \\
+※堀河百首（1105‐06頃）秋「彦星のあまの岩ふねふなでして今夜(こよひ)や磯にいそ枕する〈藤原顕仲〉」
+
+Source: \href{https://kotobank.jp/word/%E5%A4%A9%E3%81%AE%E7%A3%90%E8%88%B9-198533}{Link}
+
+\pagebreak
+
+\section{Lyric}
+\subsection{Intro}
+\subsection{Verse \#1}
+
+どれくらい\furigana{闇}{やみ}は\furigana{続}{つづ}く？ \\
+How far will you continue in the darkness?
+
+\furigana{最後}{さいご}に\furigana{触}{ふ}れたあなたの\furigana{指先}{ゆびさき} \\
+Even just the heat
+
+\furigana{温度}{おんど}さえも \\
+ of your fingertips' final touch
+
+ どれくらい\furigana{落}{お}ちたらいい？ \\
+Just how deep could you have fallen down?
+
+\furigana{流星}{りゅうせい}\furigana{宙}{そら}に\furigana{燃}{も}える \\
+Burning meteors in the sky
+
+\furigana{優}{やさ}しく\furigana{手}{て}にかけて \\
+By your gentle hands
+
+また\furigana{愛}{あい}し\furigana{合}{あ}うために \\
+I'll love you all over again for your sake
+
+\subsection{Chorus \#1}
+
+\furigana{天磐船}{あまのいわふね}よ \\
+It's the heavenly boat
+
+\furigana{天}{てん}ヘ\furigana{天}{てん}ヘノボレ \\
+Climb towards the heavens
+
+\furigana{再}{ふたた}び\furigana{空}{そら}を\furigana{割}{わ}いて \\
+Cleave the sky once more and
+
+\furigana{天}{てん}ヘ\furigana{天}{てん}ヘタカク \\
+Towards the high heavens
+
+\subsection{Verse \#2}
+
+\furigana{示}{しめ}せる\furigana{愛}{あい}があるなら \\
+If I can show that this love is real
+
+それが\furigana{死}{し}だとしても \\
+Even if this would be death
+
+\furigana{差}{さ}し\furigana{出}{だ}してみせましょう \\
+I'd like to submit them to you
+
+この\furigana{身}{み}を\furigana{魂}{たましい}を \\
+This body and soul of mine
+
+\subsection{Chorus \#2}
+
+\furigana{天磐船}{あまのいわふね}よ \\
+It's the heavenly boat
+
+\furigana{天}{てん}ヘ\furigana{天}{てん}ヘノボレ \\
+Climb towards the heavens
+
+\furigana{優}{やさ}しくその\furigana{手}{て}で\furigana{殺}{あや}めて \\
+End me with those gentle hands of yours
+
+そして、 \\
+at last.
+
+\subsection{Outro}
+
+\furigana{現世}{うつしよ}はまた\furigana{神}{かみ}を\furigana{喪}{うしな}うだろう \\
+Suppose we lose our god in this age once more
+
+その\furigana{眠}{ねむ}り\furigana{覚}{き}めることないままに \\
+Then they would not wake up from their slumber ever again
+
+\furigana{天翔}{あまか}ける\furigana{磐船}{いわふね}よ　\furigana{天}{てん}ヘノボレ \\
+The soaring heavenly boat, climbs towards the heavens
+
+\furigana{息絶}{いきた}えた\furigana{神}{かみ}のせて \\
+Let the gods be laid to rest
+
+どこまでも、どこまでも \\
+Anywhere, everywhere
+
+\furigana{闇}{やみ}の\furigana{中}{なか}。 \\
+In the pitch of darkness.
+\end{document}

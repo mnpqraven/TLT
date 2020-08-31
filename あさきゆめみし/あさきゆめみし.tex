@@ -1,0 +1,209 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\setlength{\parskip}{0.5em}
+
+\title{あさきゆめみし \\ Superficial dreams}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 东方永夜抄　～ Imperishable Night \\
+Original title: 竹取飛翔　～ Lunatic Princess \\
+Theme: Stage 6 BOSS --- Houraisan Kaguya's (蓬莱山 輝夜) theme
+
+\section{Summary}
+
+Second to last line in the Iroha poem
+
+Ref: \href{https://ja.wikipedia.org/wiki/%E3%81%84%E3%82%8D%E3%81%AF%E9%A0%86}{link}
+
+\pagebreak
+\section{Lyric}
+
+\subsection{Intro}
+あさきゆめみし　\furigana{紺青}{こんじょう}の\furigana{宵風}{よいかぜ}が\furigana{流}{なが}れ \\
+Superficial dreams and the flow of the evening \furiganaBelow{prussian}{deep blue} wind
+
+さみしやさみし　\furigana{人}{ひと}の\furigana{世}{よ}は\furigana{邯鄲}{かんたん}の\furigana{刹那}{せつな}よ \\
+Lonely o lonely, the life of a man is but a moment of vanity
+
+\subsection{Verse \#1}
+\furigana{出会}{であ}い\furigana{別}{わか}れ　\furigana{人}{ひと}の\furigana{縁}{えにし}は \\
+The fate of a farewell bidding man
+
+\furigana{寄}{よ}せては\furigana{返}{かえ}す\furigana{波}{なみ}のよう \\
+is like the tides that come and go
+
+ときに\furigana{穏}{おだ}やかに　\furigana{暗}{くら}く\furigana{激}{はげ}しく \\
+In moments of respite, as well as the murky and fervent
+
+\furigana{何}{なに}もかもを\furigana{飲}{の}み\furigana{込}{こ}んでいく \\
+As i gulp down anything i can
+
+\furigana{時}{とき}は\furigana{残酷}{ざんこく}に\furigana{終}{お}わりを\furigana{告}{つ}げ \\
+It was the mark of a cruel end
+
+私だけを\furigana{置}{お}き\furigana{去}{さ}りにして \\
+I'm the only one left behind
+
+\furigana{暮}{く}れない\furigana{太陽}{たいよう}　\furigana{明}{あ}けない\furigana{夜}{よる} \\
+The never-setting sun and the never-falling night
+
+\furigana{誰}{だれ}を\furigana{愛}{あい}してもひとり \\
+Do i even have anyone to love?
+
+ねえ、\furigana{何}{なに}か\furigana{誓}{ちか}って \\
+But wait, I swear that
+
+ずっと\furigana{果}{は}たされない\furigana{約束}{やくそく}をしてー。 \\
+I'll make a promise I can never fulfill
+
+\subsection{Chorus \#1}
+あさきゆめみし　\furigana{紺青}{こんじょう}の\furigana{宵風}{よいかぜ}が\furigana{流}{なが}れ \\
+Superficial dreams and the flow of the evening \furiganaBelow{prussian}{deep blue} wind
+
+さみしやさみし　\furigana{人}{ひと}の\furigana{世}{よ}は\furigana{邯鄲}{かんたん}の\furigana{刹那}{せつな}よ \\
+Lonely o lonely, the life of a man is but a moment of vanity
+
+\subsection{Verse \#2}
+「\furigana{永遠}{えいえん}だ」なんて\furigana{口}{くち}にしたら \\
+`This is immortality' if you were to utter such thing
+
+その\furigana{瞬間}{しゅんかん}\furigana{嘘}{うそ}になる \\
+That'll be a blatant lie
+
+だから\furigana{言}{い}って、\furigana{何度}{なんど}だって \\
+That's why, no matter how many times you say it
+
+\furigana{永遠}{えいえん}にそばにいると \\
+Immortality will always be by my side
+
+ねえ、ここで\furigana{誓}{ちか}って \\
+Hey, I'll swear to you right here, right now
+
+ずっと\furigana{果}{はた}たされない\furigana{約束}{やくそく}を今ー。 \\
+That I'll make a promise I can never fulfill
+
+\subsection{Chorus \#2}
+あさきゆめみし　\furigana{灼熱}{しゃくねつ}の\furigana{鳳}{おおとり}　\furigana{翔}{か}けてゆく \\
+Superficial dreams and the soaring scorching phoenix
+
+\begin{verbatim}
+TL NOTE: mokou's
+\end{verbatim}
+
+\furigana{恋}{こい}しや\furigana{恋}{こい}し　あなたはだれを\furigana{想}{おも}ふ？ \\
+Longing o longing, who might you be thinking of?
+
+あさきゆめみし　\furigana{炎}{ほのお}\furigana{抱}{いだ}く\furigana{甘}{あま}い\furigana{宵闇}{よいやみ} \\
+Superficial dreams and the fire bearer in the sweet twilight
+
+さみしやさみし　\furigana{人}{ひと}の\furigana{世}{よ}は\furigana{邯鄲}{かんたん}の\furigana{刹那}{せつな}よ \\
+Lonely o lonely, the life of a man is but a moment of vanity
+
+\subsection{Outro}
+\furigana{誰}{だれ}もが\furigana{消}{き}えて　\furigana{星}{ほし}も\furigana{死}{し}に\furigana{絶}{た}えた\furigana{暗闇}{くらやみ} \\
+When everyone vanishes and the stars also fading into the darkness
+
+あなたと私　そして\furigana{静寂}{せいじゃく}だけが \\
+You and me --- as still as we can be
+
+あさきゆめみし　\furigana{永遠}{えいえん}が\furigana{真実}{しんじつ}の\furigana{誓}{ちか}いなら \\
+Superficial dreams; If immortality is the truth of this promise
+
+さみしやさみし　\furigana{二人}{ふたり}は\furigana{交}{まじ}われないままで \\
+Lonely o lonely; Then the two of us can never cross paths again
+\end{document}

@@ -49,11 +49,11 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 ## To proofcheck
 
 ## Almost done/Metadata/TeX port
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
-- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
 
 ## Translation and closing notes
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
 - [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
 - [祈りの器](祈りの器/祈りの器.pdf)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.pdf)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
+- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)

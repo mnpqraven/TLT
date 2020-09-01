@@ -1,40 +1,31 @@
 # What is this?
 
-- A beginner's attempt at translating Touhou lyrics with my current knowledge in the Japanese grammar.
-- Raw translations are in `.md` and then ported to `.rmd` and `.latex` after proofchecking.
-- `.latex` will be providing formatted translation, context explanation and full translation probably in the `.md` files
+- A beginner's attempt at translating Touhou lyrics with my current knowledge in the Japanese grammar. Other resources I use alongside to make these translation articles are mainly the ![Touhou Wiki]{https://en.touhouwiki.net/} and ![Wikipedia]{https://www.wikipedia.org/}. Further reference points will be stated in individual articles.
+- Raw translations are in `.md` and then ported to `.latex` after proofchecking.
+- Finished articles are in `.pdf` formats and will be listed in the [Index](#index) section.
 - Will be corrected along the way as I gain more knowledge on Japanese.
-- **Disclaimer**: do note in mind this translation project is maintained whilst I learn Japanese from the square one, not every part of the translation is bound to be exactly correct, as analyzing the sentences' structures and expanding vocabulary is prioritized. Context and literature representation is also the focal point of this translation project.
+- **Disclaimer**: do note in mind this translation project is maintained whilst I learn Japanese from the square one, not every part of the translation is bound to be exactly correct, as analyzing the sentences' structures and expanding vocabulary is prioritized. Context and literature representation is also the focal point of this translation project. I do however try to keep the translation as accurate as possible and convey the song's meaning and singer's intention correctly
 
-## Metadata template
-```
-Original game: JP　～ EN
-Original title: JP
-Theme: Stage NUMBER isBOSS - EN's (JP) theme
-```
+[//]: # (Metadata template)
 
-## Checklist throughout/after every lyric translation done
-- [ ] Sentence structure breakdown
-- [ ] Literature translation
-- [ ] TL note for context
-- [ ] Metadata
-- [ ] Headers for navigation
+[//]: # (Original game: JP　～ EN)
+[//]: # (Original title: JP)
+[//]: # (Theme: Stage NUMBER isBOSS - EN's (JP) theme)
 
+[//]: # (Checklist throughout/after every lyric translation done)
+[//]: # (Sentence structure breakdown)
+[//]: # (Literature translation)
+[//]: # (Metadata)
+[//]: # (Headers for navigation)
+[//]: # (TL note for context)
 
-# Index
+- It is recommended to use a PDF Viewer instead of Github's built in PDF web view as there are embedded hyperlinks for references.
 
-- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.md)
-- [祈りの器](祈りの器/祈りの器.md)
-- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.md)
-- [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.md)
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
-- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
-- [天色の四季](天色の四季/天色の四季.md)
-- [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.md)
-- [乱-Ran-](乱-Ran-/乱-Ran-.md)
+# <a name="index"></a> Index (completed articles)
+- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
+- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
 
-# Progression
+# Other articles in progress
 
 ## Structure breakdown
 - [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.md)
@@ -51,9 +42,7 @@ Theme: Stage NUMBER isBOSS - EN's (JP) theme
 ## Almost done/Metadata/TeX port
 
 ## Translation and closing notes
-- [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
-- [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
-- [祈りの器](祈りの器/祈りの器.pdf)
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.pdf)
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.md)
-- [あさきゆめみし](あさきゆめみし/あさきゆめみし.md)
+- [祈りの器](祈りの器/祈りの器.tex)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.tex)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.tex)
+- [あさきゆめみし](あさきゆめみし/あさきゆめみし.tex)

@@ -4,7 +4,7 @@
 - Raw translations are in `.md` and then ported to `.latex` after proofchecking.
 - Finished articles are in `.pdf` formats and will be listed in the [Index](#index) section.
 - Will be corrected along the way as I gain more knowledge on Japanese.
-- **Disclaimer**: do note in mind this translation project is maintained whilst I learn Japanese from the square one, not every part of the translation is bound to be exactly correct, as analyzing the sentences' structures and expanding vocabulary is prioritized. Context and literature representation is also the focal point of this translation project. I do however try to keep the translation as accurate as possible and convey the song's meaning and singer's intention correctly
+- **Disclaimer**: do note in mind this translation project is maintained whilst I learn Japanese from the square one (August 1st), not every part of the translation is bound to be exactly correct, as analyzing the sentences' structures and expanding vocabulary is prioritized. Context and literature representation is also the focal point of this translation project. I do however try to keep the translation as accurate as possible and convey the song's meaning and singer's intention correctly
 
 [//]: # (Metadata template)
 
@@ -24,6 +24,8 @@
 # <a name="index"></a> Index (completed articles)
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)
 - [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
+- [あさきゆめみし](あさきゆめみし/あさきゆめみし.pdf)
+- [祈りの器](祈りの器/祈りの器.pdf)
 
 # Other articles in progress
 
@@ -42,7 +44,5 @@
 ## Almost done/Metadata/TeX port
 
 ## Translation and closing notes
-- [祈りの器](祈りの器/祈りの器.tex)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.tex)
 - [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.tex)
-- [あさきゆめみし](あさきゆめみし/あさきゆめみし.tex)

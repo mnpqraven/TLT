@@ -1,6 +1,6 @@
 # What is this?
 
-- A beginner's attempt at translating Touhou lyrics with my current knowledge in the Japanese grammar. Other resources I use alongside to make these translation articles are mainly the ![Touhou Wiki]{https://en.touhouwiki.net/} and ![Wikipedia]{https://www.wikipedia.org/}. Further reference points will be stated in individual articles.
+- A beginner's attempt at translating Touhou lyrics with my current knowledge in the Japanese grammar. Other resources I use alongside to make these translation articles are mainly the [Touhou Wiki](https://en.touhouwiki.net/) and [Wikipedia](https://www.wikipedia.org/). Further reference points will be stated in individual articles.
 - Raw translations are in `.md` and then ported to `.latex` after proofchecking.
 - Finished articles are in `.pdf` formats and will be listed in the [Index](#index) section.
 - Will be corrected along the way as I gain more knowledge on Japanese.
@@ -10,7 +10,7 @@
 
 [//]: # (Original game: JP　～ EN)
 [//]: # (Original title: JP)
-[//]: # (Theme: Stage NUMBER isBOSS - EN's (JP) theme)
+[//]: # (Theme: Stage NUMBER isBOSS - EN's/JP theme)
 
 [//]: # (Checklist throughout/after every lyric translation done)
 [//]: # (Sentence structure breakdown)
@@ -19,7 +19,7 @@
 [//]: # (Headers for navigation)
 [//]: # (TL note for context)
 
-- It is recommended to use a PDF Viewer instead of Github's built in PDF web view as there are embedded hyperlinks for references.
+- It is recommended to use a PDF Viewer instead of Github's built in PDF web view as there are embedded hyperlinks for references as well as audio tracks in the `sound/` folder. It is best that this repository is downloaded and to be viewed locally.
 
 # <a name="index"></a> Index (completed articles)
 - [幽鬼傀儡、あるいはその愛と再生](幽鬼傀儡、あるいはその愛と再生/幽鬼傀儡、あるいはその愛と再生.pdf)

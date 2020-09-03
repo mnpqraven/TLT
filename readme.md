@@ -26,6 +26,8 @@
 - [旋律のCOLORS](旋律のCOLORS/旋律のCOLORS.pdf)
 - [あさきゆめみし](あさきゆめみし/あさきゆめみし.pdf)
 - [祈りの器](祈りの器/祈りの器.pdf)
+- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.pdf)
+- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.pdf)
 
 # Other articles in progress
 
@@ -44,5 +46,3 @@
 ## Almost done/Metadata/TeX port
 
 ## Translation and closing notes
-- [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.tex)
-- [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.tex)

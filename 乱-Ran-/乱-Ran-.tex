@@ -1,324 +1,205 @@
-乱-Ran-
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
 
-Rebellion
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
 
-sung from sukuna's perspective, princess of loyal descendant who is tricked and deceived by seija kijin to use the magical mallet for her own benefit
-```
-Original game: 东方辉针城　～ Double Dealing Character
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
 
-Original title: 空中に沈む輝針城
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\tlnotelink}[1]{\hyperlink{#1tonote}{[#1]}\hypertarget{#1}{}}
+\newcommand{\tlnoteref}[1]{\hypertarget{#1tonote}{}\hyperlink{#1}{[#1]}}
+
+\setlength{\parskip}{0.4em}
+
+\title{乱-Ran- --- Rebellion}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 東方輝針城　～　Double Dealing Character
+
+\noindent Original title: 空中に沈む輝針城 \\
 Theme: Stage 5 theme
 
-Original title: 輝く針の小人族　～ Little Princess
-Theme: Stage 6 BOSS - Sukuna Shinmyoumaru's (少名　針妙丸) theme
-```
+\noindent Original title: 輝く針の小人族　～　Little Princess \\
+Theme: Stage 6 BOSS --- Sukuna Shinmyoumaru's (少名　針妙丸) theme
 
-何も知らずいられた　真実をここに聞くまでは \\
-```
-なにも: anything
-しる: know (verb)
-知らず:  without knowing
-いられた: potential/receptive helper verb
-unable to know/how can you know this (the ignorant)
+\section{Summary}
+This is the second part to a two-part song, first one being 完全超悪アマノジャク. The song is sung from \href{https://en.touhouwiki.net/wiki/Shinmyoumaru_Sukuna}{Sukuna's} perspective, an \href{https://en.touhouwiki.net/wiki/Inchling}{Inchling} princess of loyal descendant who is tricked and deceived by \href{https://en.touhouwiki.net/wiki/Seija_Kijin}{Seija Kijin} to use the \href{https://en.touhouwiki.net/wiki/Miracle_Mallet}{Miracle Mallet} for her own benefit.
 
-                しんじつ: truth (noun)
-                  ここ: here
-                        こく: hear (verb)
-                            まで: until (time and abstract location context)
-(I did not know about anything) + (until (I) hear about it here) + (the truth)
-```
+\pagebreak
+\section{Lyric}
+\subsection{Verse \#1}
+\furigana{何}{なに}も\furigana{知}{し}らずいられた　\furigana{真実}{しんじつ}をここに\furigana{聞}{き}くまでは \\
 The truth unbeknownst to me until I heard about it here
 
-どれだけの苦しみが　私たちを虐げたのか \\
-```
-どれ: which one
-だけ: only/as much as (limitation context)
-          くるしみ: pain/suffering (noun)
+どれだけの\furigana{苦}{くる}しみが　私たちを\furigana{虐}{しいた}げたのか \\
+was just how much pain and suffer our oppression caused \tlnotelink{1}
 
-                    わたしたち: we/us (pronoun)
-                            しいたげる: oppress (ichidan verb)
-                            虐げた: past tense ichidan verb
-                              か: wondering context/self questioning
-(just how much pain/suffering) + (the oppression done to us would be/our oppression)
-```
-was just how much pain and suffer our oppression caused {1}
+さあ、\furigana{目覚}{めざ}めよ　\furigana{言葉}{ことば}\furigana{持}{も}たぬ　\furigana{囚}{とら}われの\furigana{意思}{いし} \\
+Now, wake up, don't utter a word, these imprisoned minds
 
-さあ、目覚めよ　言葉持たぬ　囚われの意思 \\
-```
-さあ: now (callout expression)
-めざめる: wake up (phrasal verb)
-
-                言葉 (ことば): language/words (noun)
-                持つ (もつ): hold/possess (verb)
-                持たぬ: negative verb (old japanese)
-
-                            とらわれ: captive/captured (noun)
-                                    いし: mind/purpose (noun)
-(now, wake up) (without language/speech) (mind of prison)
-```
-Now, wake up; Don't utter a word; Imprisoned minds
-
-求めれば　与えよう　力を命を　憎しみ故に \\
-```
-もとめる: wish/request (ichidan verb)
-求めれば: conditional/if/request context
-
-          あたえる: give/grant/bestow (ichidan verb)
-          与えよう: desire/questioning desire/"let's" context
-
-                    ちから: strength/power (noun)
-                    いのち: life (noun)
-
-                              にくしみ: hatred
-                              故 (ゆえ): reason/cause (noun)
-(if I wish for it) ((please) grant me it) (power and life) (also hatred)
-```
+\furigana{求}{もと}めれば　\furigana{与}{あた}えよう　\furigana{力}{ちから}を\furigana{命}{いのち}を　\furigana{憎}{にく}しみ\furigana{故}{ゆえ}に \\
 If you wish for it, I'll grant them to you: Power and life, also the fuel to resentment
 
-空、翳り \\
-```
-そら: sky (noun)
-翳 (かげ): shadow
-翳り: shadow/gloom/shade (noun)
-the glooming sky
-```
+\subsection{Chorus \#1}
+\furigana{空}{そら}、\furigana{翳}{かげ}り \\
 The glooming sky
 
-輝く針の剣を抜く \\
-```
-かがやく: shine/sparkle (verb)
-はり: needle/pin (noun)
-剣 (つるぎ): sword (noun)
-ぬく: pull out/carry through (verb)
-unsheathe your shining needle
-```
-Unsheathe your shining needle {2}
+\furigana{輝}{かがや}く\furigana{針}{はり}の\furigana{剣}{つるぎ}を\furigana{抜}{ぬく}く \\
+Unsheathe your shining needle \tlnotelink{2}
 
-憂い胸に \\
-```
-うれい: sorrow/grief (noun)
-むね: chest (noun)
-```
+\furigana{憂}{うれ}い\furigana{胸}{むね}に \\
 The chest filled with sorrow
 
-強き者負かすのは　さらに強大な力のみ \\
-```
-つよい: strong (i-adjective)
-強き: adverb transformation き
-もの: person (noun)
-まかす: defeat (smth/someone) (verb)
+\subsection{Verse \#2}
+\furigana{強}{つよ}き\furigana{者}{もの}\furigana{負}{ま}かすのは　さらに\furigana{強大}{きょうだい}な\furigana{力}{ちから}のみ \\
+The strong who conquers can only be even stronger
 
-                さら: furthermore/even more (adverb)
-                    きょうだい: strong/powerful (noun)
-                    な: simile/metaphor particle
-                    ちから: power (noun)
-                    のみ: "only" context - same as だけ/limitation particle
-(the strong who defeats) + (even bigger force/power)
-```
-The strong who defeats can only be even stronger
-
-弱き者の望みは　やがてその身をも滅ぼす \\
-```
-よわい: weak (i-adjective)
-もの: person (noun)
-のぞみ: wish/desire (noun)
-
-                やがて: eventually
-                その: that (thing)
-                み: body (noun)
-                ほろぼす: destroy (verb)
-(the weak who wishes) + (will eventually destroy that body of theirs)
-```
+\furigana{弱}{よわ}き\furigana{者}{もの}の\furigana{望}{のぞ}みは　やがてその\furigana{身}{み}をも\furigana{滅}{ほろ}ぼす \\
 The weak who begs will eventually destroy those bodies of theirs
 
-さあ、この世に　この地上に　夢に見たような \\
-```
-さあ: now
-          せ: world (noun)
-                  ちじょう: surface/land (noun)
-
-                            ゆめ: dream (noun)
-                            見る: see (ichidan verb)
-                            見た: saw (past tense ichidan verb)
-                            ような: as if/like (hypothetical metaphor)
-(now) (this world) (this land) (like something you'd see in a dream)
-```
+さあ、この\furigana{世}{せ}に　この\furigana{地上}{ちじょう}に　\furigana{夢}{ゆめ}に\furigana{見}{み}たような \\
 Now, this world, this land, just like something you'd see in a dream
 
-楽園を　楽園を　もう誰一人悲しまないように \\
-```
-らくえん: paradise (noun)
-
-              もう: soon/already (adverb)
-                だれ: who (pronoun)
-                ひとり: one's self (noun)
-                          かなしむ: be sad for (obj) (verb)
-                          悲しまない: negative tense verb
-                                    ように: as if/like (hypothetical metaphor)
-(a paradise) (like no one would be sad)
-```
+\furigana{楽園}{らくえん}を　\furigana{楽園}{らくえん}を　もう\furigana{誰}{だれ}\furigana{一人}{ひとり}\furigana{悲}{かな}しまないように \\
 A paradise, a paradise, where no one would be sad
 
-空、翳り
-輝く針の剣を抜く
-痛み胸に　憂世の乱　輝針の乱
-```
-いたみ: pain (noun)
-    むね: chest (noun)
+\subsection{Chorus \#2}
+\furigana{空}{そら}、\furigana{翳}{かげ}り \\
+The glooming sky
 
-          憂世 (ゆうせい): sad world/present world/fleeting life (noun)
-          　　　らん: rebellion (noun)
-                  輝針 (きしん): shining needle
-(this hurting chest) (this pitiful world of rebellion) (this shining needle of rebellion)
-```
-The chest filled with pain, this pitiful world of rebellion, this shining needle of rebellion {3}
+\furigana{輝}{かがや}く\furigana{針}{はり}の\furigana{剣}{つるぎ}を\furigana{抜}{ぬく}く \\
+Unsheathe your shining needle
 
+\furigana{痛}{いた}み\furigana{胸}{むね}に　\furigana{憂世}{ゆうせい}の\furigana{乱}{らん}　\furigana{輝針}{きしん}の\furigana{乱}{らん} \\
+The chest filled with pain, this pitiful world of rebellion, this shining needle of rebellion
+
+\subsection{Outro}
 やがて、 \\
-```
 Eventually
-```
 
-夜は明ける　朝が息吹く　その手にある鬼の呪物 \\
-```
-よる: night (noun)
-あける: grow/emit light (ichidan verb)
+\furigana{夜}{よる}は\furigana{明}{あ}ける　\furigana{朝}{あさ}が\furigana{息吹}{いぶ}く　その\furigana{手}{て}にある\furigana{鬼}{おに}の\furigana{呪物}{じゅぶつ} \\
+Brighten up the night, breathe in the sunlight, take the demon charm \tlnotelink{3}
 
-あさ: morning (noun)
-いぶく: breathe (verb)
-
-その: that
-て: hand (noun)
-ある: is there/exists (verb)
-おに: (oni context) (noun)
-じゅぶつ: fetish (not in sexual context but in spiritual - temple's talisman or charm. E.g ema, kumate, maneki-neko) (noun)
-(light up the night) + (breathe in the morning (air)) + (with demon(referring to amanojaku) charm in hand)
-```
-Brighten up the night, breathe in the sunlight, take the demon charm {4}
-
-時は来たり　潮満ちたり　力よさあ、この身を焼け！
-```
-とき: time (noun)
-くる: come/go (verb)
-来たり: coming (noun)
-
-            潮 (しお): tide (noun)
-            満ちる (みちる): full/rise(tide/water context) (ichidan verb)
-            潮満ちたり (しおみつ): rising tide
-
-                        ちきら: power/strength (noun)
-                        よ + さあ: colloquial <?>
-                                  この: this
-                                      み: body (noun)
-                                          やける: burn/get roastet (ichidan verb)
-                                          やけ: commanding verb
-
-(the time has come) (the rising tide) (with force/power, set this body on fire)
-```
+\furigana{時}{とき}は\furigana{来}{き}たり　\furigana{潮満}{しおみつ}ちたり　\furigana{力}{ちから}よさあ、この\furigana{身}{み}を\furigana{焼}{や}け！ \\
 The coming hours, the rising tide, with force and power, set this body on fire
 
-切り裂かれた　涙枯れた　弱き者の嘆きを聞け \\
-```
-きる: cut (verb)
-切り: verb compound connector り
-さく: tear/rip (verb)
-裂かれた: past tense receptive helper verb
-
-              なみだ: tear (noun)
-              かれる: dry up (verb)
-              枯れた: died up (past tense verb)
-
-                        よわい: weak (i-adjective)
-                        弱き: weakly (adverb)
-                            もの: body (noun)
-                                なげき: grief/lament (noun)
-                                      きける: tell (old japanese) (ichidan verb)
-                                      聞け: tell (commanding verb)
-(cut and tear (past)) (the dried up tears) (the weak bodies tells the stories of the grief)
-```
+\furigana{切}{き}り\furigana{裂}{さ}かれた　\furigana{涙}{なみだ}\furigana{枯}{か}れた　\furigana{弱}{よわ}き\furigana{者}{もの}の\furigana{嘆}{なげ}きを\furigana{聞}{き}け \\
 Getting cut and torn, dried up streams of tears, the weak's lamenting
 
-語る声も　ふるう拳も　死ぬ自由もないモノたち \\
-```
-かたる: talk/tell a story (verb)
-    こえ: voice (noun)
-          ふるう: swing (verb)
-                こぶし: fist (noun)
-                も: as well as (double も structure)
-                      死ぬ(しぬ): die (verb)
-                      じゆう: freedom (noun) (自ら (みずから): self (noun) + 由 (よし): reason (verb))
-                              もない: even + negative
-                                    モノたち: things/set of things/objects (noun)
-(monotone/chanting voice) (as well as the swinging fists) (things that don't have the freedom to die/can't even die)
-```
+\furigana{語}{かた}る\furigana{声}{こえ}も　ふるう\furigana{拳}{こぶし}も　\furigana{死}{し}ぬ\furigana{自由}{じゆう}もないモノたち \\
 The unchanging voice, the flurry of blows, as well as beings that can't even die
 
-私は今　全てを知り敵を討たん \\
-```
-わたし: I (feminine) (pronoun)
-    いま: now
-
-        すべて: everything (noun)
-              しる: know (verb)
-              しり: clause connector り
-                てき: enemy/opponent
-                      討つ (うつ): attack/shoot (verb)
-                      討たん: past tense verb
-(I now know everything) + (and bring vengeance to the enemies)
-```
+私は\furigana{今}{いま}　\furigana{全}{すべ}てを\furigana{知}{し}り\furigana{敵}{てき}を\furigana{討}{う}たん \\
 I now know everything, I'll now bring vengeance to the enemies
 
-私は今　己を知り空に沈む \\
-```
-        おのれ: myself (this self) (literature pronoun)
-            しる: know (verb)
-            しり: adverb transformation り
-                そら: sky (noun)
-                    しずむ: sink/go under (verb)
-(I now know myself) + (and witness the horizon)
-```
+私は\furigana{今}{いま}　\furigana{己}{おのれ}を\furigana{知}{し}り\furigana{空}{そら}に\furigana{沈}{しず}む \\
 I now know myself, to understand this self as the horizon falls
 
-まだ足りない　まだ足りない \\
-```
-だま: still/yet
-たりない: negative + enough
-```
+まだ\furigana{足}{た}りない　まだ\furigana{足}{た}りない \\
 It's still not enough, it's still not enough
 
-運命にさえ抗う力を
-```
-うんめい: fate/destiny (noun)
-さえ: even if
-抗う (あらが): oppose/object/go against (verb)
-ちから: force/strength (noun)
-(against fate) (even if opposing force)
-```
-夜は明けて　朝は息吹く
-```
-よる: night (noun)
-あける: grow/emit light (ichidan verb)
-明けて: clause connector て
+\furigana{運命}{うんめい}にさえ\furigana{抗}{あらが}う\furigana{力}{ちから}を \\
+Retaliation, even against fate
 
-            あさ: morning (noun)
-            いぶく: breathe (verb)
-[the oni that](light up the night) + (and the breathe in the morning (air)) + (next line oni)
-```
+\furigana{夜}{よる}は\furigana{明}{あ}けて　\furigana{朝}{あさ}は\furigana{息吹}{いぶ}く \\
 The lit up nightfall, the dawning morning
 
-鬼が人知れず笑って
-```
-おに: oni context (noun)
-ひとしれず: secret/unseen (人: person/man + 知れず: (negative ず) know)
-わらう: laugh (verb)
-笑って: commanding (can be inferred as "laughing")
-(laughs in secret)
-```
+\furigana{鬼}{おに}が\furigana{人知}{ひとし}れず\furigana{笑}{わら}って
 made by the demon that laughs in secrecy
 
-{1} possibly seija guilt-tripping
+\section{Translation notes}
+\tlnoteref{1}: Possibly Seija guilt-tripping Sukuna into thinking that way
 
-{2} sukuna's weapon of choice, she's an inchling so a needle is actually around the length of a sword/sabre to a normal human
+\tlnoteref{2}: Sukuna's weapon of choice, she's an \href{https://en.touhouwiki.net/wiki/Inchling}{Inchling} who is as small as the palm of our hand so a needle to her is actually around the length of a sword/sabre to a normal human
 
-{3} sukuna's whereabouts, also where the magical mallet is located
-
-{4} the song from this point onwards is sung in segments of 6 syllables so I tried to also structure the part from here on to be rhythmic, this case being 5
+\tlnoteref{3} the song from this point onwards is sung in segments of 6 syllables so I tried to also structure the part from here on to be rhythmic, this case being 5
+\end{document}

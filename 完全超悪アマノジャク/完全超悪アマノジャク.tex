@@ -1,440 +1,270 @@
-完全超悪アマノジャク
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
 
-Pure evil Amanojaku
-```
-Original game: 东方辉针城　～ Double Dealing Character
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\tlnotelink}[1]{\hyperlink{#1tonote}{[#1]}\hypertarget{#1}{}}
+\newcommand{\tlnoteref}[1]{\hypertarget{#1tonote}{}\hyperlink{#1}{[#1]}}
+
+\setlength{\parskip}{0.4em}
+
+\title{完全超悪アマノジャク --- Pure evil Amanojaku}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+
+\noindent Original game: 東方輝針城　～　Double Dealing Character \\
 Original title: Reverse Ideology
-Theme: Stage 5 BOSS - Kijin Seija's (鬼人 正邪) theme
+Theme: Stage 5 BOSS --- Kijin Seija's (鬼人 正邪) theme
 
-Original game: 弹幕天邪鬼　～ Impossible Spell Card
-Original title: 不可能弾幕には反則を
+\noindent Original game: 弾幕アマノジャク　～　Impossible Spell Card \\
+Original title: 不可能弾幕には反則を \\
 Theme: Stage 1 theme
-```
+\section{Summary}
 
-This is the first part to a two-part song, second one being 乱-Ran-. The song is mainly sung from Seija Kijin's perspective - a Amanojaku(mischievous trickster demon from japanese folklore)
-who lies and deceives the princess Sukuna Shinmyoumaru who is the only that can use the Magical Mallet to conspire a rebellion within Gensokyo.
+This is the first part to a two-part song, second one being 乱-Ran-. The song is mainly sung from \href{https://en.touhouwiki.net/wiki/Seija_Kijin}{Seija Kijin's} perspective --- an Amanojaku (mischievous trickster demon from Japanese folklore) who lies and deceives the princess \href{https://en.touhouwiki.net/wiki/Shinmyoumaru_Sukuna}{Sukuna Shinmyoumaru} who is the only that can use the Miracle Mallet to conspire a rebellion within Gensokyo.
 
-さあ、なにもかもはひっくり返る 上は下に陰は日向 \\
-```
-さあ: now (calling out context)
-なにも: anything/everything
-なにもかも: whatever
-ひっくりかえる: reversed/turned over (receiving end) (phrasal verb)
-
-    うえ: up (noun)
-    した: down (noun)
-    に: relative location marker
-    かげ: shadow (noun)
-　　ひなた: sunny/in the sun (noun) (日: day/sun 向く (むく): face)
-(now, turn everything over) (up is down) (shadow is now sunny place)
-```
+\pagebreak
+\section{Lyric}
+\subsection{Intro}
+さあ、なにもかもはひっくり\furigana{返}{かえ}る \furigana{上}{うえ}は\furigana{下}{した}に\furigana{陰}{かげ}は\furigana{日向}{ひなた} \\
 Now, let's change everything, what's up is down, the shadow is now the sun
 
-さあ、お待ちかねのどんでん反し　成す術なくひれ伏せよ！ \\
-```
-さあ: now (calling out context)
-まつ: wait (verb)
-おまちかね: long awaited (adjective)
-かえし: return
-どんでん返し: complete reversal/unexpected twist - jisho (noun)
+さあ、お\furigana{待}{ま}ちかねのどんでん\furigana{反}{かえ}し　\furigana{成}{な}す\furigana{術}{すべ}なくひれ\furigana{伏}{ふ}せよ！ \\
+Now, the long awaited twist of this story: you all bowing down to me helplessly \tlnotelink{1}
 
-成す (なす): build up/form (verb)
-術 (すべ): method/means (noun)
-すべなく: no means (adverb)
-ひれふす: prostrate oneself (verb)
-－えよ: imperative/commanding
-(now the long awaited complete twist of events) (helplessly form your prostration)
-```
-Now, the long awaited twist of this story: you all bowing down to me helplessly {1}
+\subsection{Verse \#1}
+\furigana{時}{とき}は\furigana{来}{く}たり、\furigana{クリープショー・タイム}{CREEPY SHOWTIME}　\furigana{罵詈雑言}{ばりぞうごん}ってそれ\furigana{褒}{ほ}め\furigana{言葉}{ことば}？ \\
+The creepy show time is approaching, are those insults supposed to be compliments? \tlnotelink{2}
 
-時は来たり、クリープショー・タイム　罵詈雑言ってそれ褒め言葉？ \\
-```
-とき: time (noun)
-くる: come (verb)
-くたり: come and (multiple verb structure)
-クリープショー・タイム: Creeper/creepy showtime (KURIIPUSHOO-TAIMU)
-                              罵詈雑言 (ばりぞうごん): abusive language/stream of insults
-                                        って: quoting expression
-                                            それ: that (thing)
-                                              褒め言葉 (ほめことば): compliment/praise (noun)
-(time comes, creepy showtime) (stream of insults, is that a compliment?)
-```
-The creepy showtime is approaching, are those insults supposed to be compliments ? {2}
+\furigana{虫ケラ}{むしけら}にだって\furigana{五}{ご}\furigana{分}{ぶ}の\furigana{魂}{たまし}　\furigana{黙}{だま}って\furigana{潰}{つぶ}されると\furigana{思}{おも}うなよ \\
+Even an insect has its own mind, don't think that you can crush them that easily \tlnotelink{3}
 
-虫ケラにだって五分の魂　黙って潰されると思うなよ \\
-```
-むしけら: worm/insect
-だって: "even i can do it/just because" context
-ごぶ: one fifth/to 5 parts/5 times
-たましい: soul/spirit
-
-だまる: silent/shut up (verb)
-黙って: and (clause connector て)
-つぶす: smash/crush/destroy (verb)
-潰される: destroyed (receptive helper verb)
-(just because the soul is torn in 5 parts of an(self implication) insect)-analogy look at tl note ((silent and destroyed) don't think that)
-```
-Even an insect has its own mind, don't think that you can crush them that easily
-
-何も知らない初心なヤツを役立ててやろうって、光栄なことだろ \\
-```
-なにも: anything
-    知らない: (not) know (negative verb)
-            初心 (うぶ): innocent (noun)
-                な: hypothetical/simile particle (noun to adjective transformer)
-                  やつ: impolite pronoun "those things/guys/that bunch"
-                    役立てる (やくだてる): make use of (verb)
-                    役立てて: clause connector て
-                                やろう: let's do/would do (casual persuasion/affirmation expression)
-                                って: quoting (possible past tense)
-光栄 (こうえい): honor/glory (光 (ひかり): light + 栄 (さかえる): honor) (noun)
-な: hypothetical/simile particle (noun to adjective transformer)
-こと: thing (noun)
-だろ: wonder/i wonder (expression)
-(let's make use of ((not knowing anything) innocent-like folks)) (isn't it glory ?)
-```
+\furigana{何}{なに}も\furigana{知}{し}らない\furigana{初心}{うぶ}なヤツを\furigana{役立}{やくだ}ててやろうって、\furigana{光栄}{こうえい}なことだろ \\
 Let's make use of these stupidly naive lots, it will be glorious
 
-かわりにどんなひどい眼にあったって、それがなんだって？ \\
-```
-かわり: change/difference (noun)
-    　に: target marker particle
-        どんな: what kind of + such things
-              ひどい: cruel (i-adjective)
-                    め: eye/vision (noun)
-((what kind of changes/differences)(with her "cruel" eyes) that she saw) (what even is that<previous clause) ?
-```
+かわりにどんなひどい\furigana{眼}{め}にあったって、それがなんだって？ \\
 Just what were the changes that those cruel eyes witnessed?
 
-知ったこっちゃないね！
-```
-しる: know (verb)
-知った: knew (past tense verb)
-こち: that
-こっちゃ: that thing (dialect)
-ないね: casual
-(it was not what you thought it was/i don't know)
-```
+\furigana{知}{し}ったこっちゃないね！ \\
 Not like I myself would know!
 
-「ゆがんだこの世界を　正さねばなりません… \\
-```
-ゆがむ: wrap/bent (verb)
-ゆがんだ: is wrapped/bent (A is B form)
-この: this
-世界 (せかい): world (noun)
+「ゆがんだこの\furigana{世界}{せかい}を　\furigana{正}{ただ}さねばなりません\ldots \\
+「We have to correct this twisted world\ldots
 
-正す (ただす): correct/amend/make right (verb)
-ねばならない: have to/must structure
-(this distorted/twisted world) (we have to make it right)
-```
-We have to correct this twisted world
+ともに\furigana{戦}{たたか}い\furigana{救}{すく}いましょう、\furigana{声}{こえ}なきものたちを\ldots」 \\
+with our comrades who fights, our comrades who helps alongside, our comrades who are silent\ldots」 \tlnotelink{4}
 
-ともに戦い救いましょう、声なきものたちを…」 \\
-```
-とも: friend/companion (noun)
-たたかい: battle/fight (noun)
-すくい: save/rescue (noun)
-ましょう: affirmation/encouragement expression
-
-こえ: voice (noun)
-声なき: silent (adjective)
-ものたち: group pronoun
-
-(companion who fights and helps alongside) (our silent companions)
-```
-With our comrades who fights, with our comrades who helps alongside, with our comrades who are silent... {4}
-
-って、 \\
-そんで世界は変わるのさ、私の為だけに \\
-```
-って: quotation
-そんで: because of that
-せかい: world (noun)
-かわる: change (verb)
-
-ため: sake/one's good (noun)
-だけ: only
-(because that changes the world, that is only for my own good)
-```
+って、そんで\furigana{世界}{せかい}は\furigana{変}{か}わるのさ、私の\furigana{為}{ため}だけに \\
 And just like that, to change the world like that just for me
 
-デカい顔してたヤツらも　私を称えるのさ \\
-```
-でかい: big (adjective)
-かお: face (noun)
-でかい顔する: act arrogantly (phrasal verb)
-
-たたえる: praise (ichidan verb)
-(those arrogant lots) (praise (towards) me)
-```
+デカい\furigana{顔}{かお}してたヤツらも　私を\furigana{称}{たた}えるのさ \\
 You arrogant lots will be applauding me soon
 
-## CHORUS
-カエセ、ウラオモテ　テンチ　サカサニ \\
-```
-かえせ、うらおもて　てんち　さかさに
-返す (かえす): turn upside down/turn around/overturn (verb)
-かえせ: (imperative form)
-うらおもて: double-dealing/two-faces/in and out (noun)
-てんち: heaven and earth/top and bottom (noun)
-さかさに: inverted/upside down/reverted (adverb)
-```
+\subsection{Chorus \#1}
+\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{ウ}{う}\furigana{ラ}{ら}\furigana{オ}{お}\furigana{モ}{も}\furigana{テ}{て}　\furigana{テ}{て}\furigana{ン}{ん}\furigana{チ}{ち}　\furigana{サ}{さ}\furigana{カ}{か}\furigana{サ}{さ}\furigana{ニ}{に} \\
 Flip it over! front and back, up and down, inside out
 
-ドン底はサイコー！サイコーはサイテー！ \\
-```
-どんそこはさいこう！さいこうはさいてい！
-どん底: rock bottom/bottommost (noun)
-最高: best/strongest (noun)
-最低: worst (noun)
-(rock bottom is the strongest(best)! strongest(best) is the weakest(worst)!)
-```
-Hitting rock-bottom truly is the best! the strongest will soon take my place! {5}
+ドン\furigana{底}{そこ}は\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ー！\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ーは\furigana{サ}{さ}\furigana{イ}{い}\furigana{テ}{て}ー！ \\
+Hitting rock-bottom truly is the best! the strongest will soon take my place! \tlnoteref{5}
 
-弱きものにカエセ、仮初の誇り償い \\
-```
-弱きもの: the weak (noun)
-返す (かえす): turn upside down/turn around/overturn (verb)
-仮初 (かりそめ): temporary/trifling/slight (adjective)
-ほこり: pride (noun)
-つぐない: recompense/atonement/redemption (noun)
-(overturn the weak) (trifling pride of atonement)-(trifling sense of relief)
-```
-Overturning the weak, such an unfulfilling sense satisfaction
+\furigana{弱}{よわ}きものに\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{仮初}{かりそめ}の\furigana{誇}{ほこ}り\furigana{償}{つぐな}い \\
+Overturning the weak, such an unfulfilling sense of satisfaction
 
-出鱈目も上々　さあさあ、いくぞ！ \\
-```
-でたらめ: nonsense (noun)
-  じょうじょう: the very best
-(this nonsense is the very best)(let's go)
-```
+\furigana{出鱈目}{でたらめ}も\furigana{上}{じょう}々　さあさあ、いくぞ！ \\
 This nonsense is the very best, let's go!
 
-背を反らして天を地に落とせ　ニコニコ笑って悪態バラまけ \\
-```
-せ: height
-すらす: bend/wrap
-あま: heaven
-ち: earth
-おとす: drop/lose (verb)
-
-にこにこ: grin (onomatopoeic) (adverb)
-わらう: laugh (verb)
-笑って: laugh and (clause connector って)
-あくたい: abusive language (noun)
-ばらまけ: broadcast/distribute (verb)
-((bend/twist the height) + (drop/bring the heavens down to earth)) (laugh with a grin and spread abusive language)
-```
+\furigana{背}{せ}を\furigana{反}{す}らして\furigana{天}{てん}を\furigana{地}{ち}に\furigana{落}{お}とせ　\furigana{ニ}{に}\furigana{コ}{こ}\furigana{ニ}{に}\furigana{コ}{こ}\furigana{笑}{わら}って\furigana{悪態}{あくたい}\furigana{バラ}{ばら}まけ \\
 Bring the distant heavens down to earth, as I giggly sprout insults
 
-手を振りかぶって真後ろに進め　赤い舌つき出して嘘をつきまくれ \\
-```
-て: hand (noun)
-ふりかぶる: hold(sword)/brandish (verb)
-うしろ: behind (noun)
-まうしろ: right behind (noun)
-すすめる: move foward/advance/march onward (ichidan verb)
-進め: advance (imperative form)
+\furigana{手}{て}を\furigana{振}{ふ}りかぶって\furigana{真後}{まうし}ろに\furigana{進}{すす}め　\furigana{赤}{あか}い\furigana{舌}{した}つき\furigana{出}{だ}して\furigana{嘘}{うそ}をつきまくれ \\
+Creeping up behind armed as you kept getting fed by the lies with this red tongue of mine
 
-あかい: red (adjective)
-した: tongue (noun)
-突き出す (つきだす): let out (verb)
-うそ: lie (noun)
-吐く (つく): tell a lie/use(foul language) (verb)
-まくる: repeating expression (future context)
-(hold (swords) in hand) + (advance right behind (you)) (pull out (red) tongue) + (will keep telling lies)
-```
-Creeping up behind armed as you are kept getting fed by the lies with this red tongue of mine
-
-時は来たり、乱世の気配　罵詈雑言もっとおくれ \\
-```
-とき: time (noun)
-くる: come/go (verb)
-来たり: completion of 来る (old japanese)(adverb)
-らいせい: troubled times (noun)
-けはい: presence (noun)
-
-罵詈雑言 (ばりぞうごん): abusive language/stream of insults
-もっと: (even) more
-おくる: send/give (verb)
-(the time has come + this time of unrest) (insult me more)
-```
+\subsection{Verse \#2}
+\furigana{時}{とき}は\furigana{来}{く}たり、\furigana{乱世}{らいせい}の\furigana{気配}{けはい}　\furigana{罵詈雑言}{ばりぞうごん}もっとおくれ \\
 The time of unrest is approaching, keep those insults coming my way
 
-虫ケラにだって望みがある　自分よりも下が欲しいのさ \\
-```
-むしけら: worm/insect
-だって: "even i can do it/just because" context
-のぞみ: wish/desire (noun)
-ある: exist (verb)
-
-じぶん: one's self (noun)
-より: as opposed to the clause prior (comparative particle)
-した: down/below (noun)
-ほしい: want (adjective)
-(just because insects have wishes and desires) ((than me) (lower than me) want)
-```
+\furigana{虫ケラ}{むしけら}にだって\furigana{望}{のぞ}みがある　\furigana{自分}{じぶん}よりも\furigana{下}{した}が\furigana{欲}{ほ}しいのさ \\
 Even an insect has its own desire, I want my own subordinates too
 
-「いまこそ復讐のとき、勇敢なる姫君… \\
-```
-いまこそ: right now
-ふくしゅう: revenge
-とき: time
+「いまこそ\furigana{復讐}{ふくしゅう}のとき、\furigana{勇敢}{ゆうかん}なる\furigana{姫君}{ひめぎみ}\ldots \\
+「Now is the time of revenge, O brave princess\ldots
 
-ゆうかん: brave/heroic (adjective)
-ひめぎみ: daughter of a person of high rank -joshi
-(now is the time for revenge, brave young princess(sukuna))
-```
-Now is the time of revenge, O brave princess
+あなたについて\furigana{行}{い}きましょう、\furigana{運命}{うんめい}の\furigana{導}{みちび}きよ\ldots」 \\
+I'll follow you, the guide of fate\ldots」 \tlnotelink{6}
 
-あなたについて行きましょう、運命の導きよ…」 \\
-```
-あなた: you (pronoun)
-ついていく: follow (phrasal verb)
-ましょう: expression
-うんめい: fate/destiny (noun)
-みちびき: guidance (noun)
-(let's/i'll (follow you)) (the guide of fate)
-```
-I'll follow you, the guide of fate {6}
-
-って、 \\
-そんで世界は変わるのさ、私の望むように \\
-```
-って: quotation
-そんで: because of that
-せかい: world (noun)
-かわる: change (verb)
-
-のぞむ: wish/desire (verb)
-ように: metaphor/simile particle
-(so is said) (because of that the world changes) (just like how i wished for/wanted)
-```
+って、そんで\furigana{世界}{せかい}は\furigana{変}{か}わるのさ、私の\furigana{望}{のぞ}むように \\
 And just like that, the world changed exactly like how I wanted
 
-天邪鬼に媚びへつらう、最高の景色を！ \\
-```
-天邪鬼: amanojaku (further TLnote)
-媚びへつらう (こびへつらう): flirt/flatter (verb)
-
-さいこう: best/strongest
-けしき: scene/scenery
-(amanojaku's flatter) (best sight)!
-```
+\furigana{天邪鬼}{あまのじゃく}に\furigana{媚}{こ}びへつらう、\furigana{最高}{さいこう}の\furigana{景色}{けしき}を！ \\
 This amanojaku's flattering is truly the best sight to behold!
 
-**chorus**
-```
-カエセ、ウラオモテ　テンチ　サカサニ
-ドン底はサイコー！サイコーはサイテー！
-弱きものにカエセ、仮初の誇り償い
-出鱈目も上々　さあさあ、いくぞ！
+\subsection{Chorus \#2}
+\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{ウ}{う}\furigana{ラ}{ら}\furigana{オ}{お}\furigana{モ}{も}\furigana{テ}{て}　\furigana{テ}{て}\furigana{ン}{ん}\furigana{チ}{ち}　\furigana{サ}{さ}\furigana{カ}{か}\furigana{サ}{さ}\furigana{ニ}{に} \\
+Flip it over! Front and back, up and down, inside out
 
-背を反らして天を地に落とせ　ニコニコ笑って悪態バラまけ
-手を振りかぶって真後ろに進め　赤い舌つき出して嘘をつきまくれ
-```
+ドン\furigana{底}{そこ}は\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ー！\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ーは\furigana{サ}{さ}\furigana{イ}{い}\furigana{テ}{て}ー！ \\
+Hitting rock-bottom truly is the best! the strongest will soon take my place!
 
-どんな生贄だって捧げよう 構いやしない \\
-```
-どんな: what
-  生贄 (いけにえ): sacrifice/victim (noun)
-ささげる: offer (ichidan verb)
+\furigana{弱}{よわ}きものに\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{仮初}{かりそめ}の\furigana{誇}{ほこ}り\furigana{償}{つぐな}い \\
+Overturning the weak, such an unfulfilling sense of satisfaction
 
-かまい: care (adverb)
-やしない: not (tl note)
-(what kind of sacrifice would (you) offer) ((i) don't care)
-```
-What kind of sacrifice would you be offering, I won't really give a damn {8}
+\furigana{出鱈目}{でたらめ}も\furigana{上}{じょう}々　さあさあ、いくぞ！ \\
+This nonsense is the very best, let's go!
 
-騙される方が悪いって寺子屋で習ったろ？
-```
-だます: trick (verb)
-騙される: be tricked (verb in receiving form)
-方: side/way (noun)
-わるい: bad (adjective)
-寺子屋 (てらこや): temple elementary school -jisho (noun)
-ならう: study/take lessions (verb)
-習った: past tense form
-(to be tricked like that (is bad)) (took lessons at school?) - (learning context)
-```
+\furigana{背}{せ}を\furigana{反}{す}らして\furigana{天}{てん}を\furigana{地}{ち}に\furigana{落}{お}とせ　\furigana{ニ}{に}\furigana{コ}{こ}\furigana{ニ}{に}\furigana{コ}{こ}\furigana{笑}{わら}って\furigana{悪態}{あくたい}\furigana{バラ}{ばら}まけ \\
+Bring the distant heavens down to earth, as I giggly sprout insults
+
+\furigana{手}{て}を\furigana{振}{ふ}りかぶって\furigana{真後}{まうし}ろに\furigana{進}{すす}め　\furigana{赤}{あか}い\furigana{舌}{した}つき\furigana{出}{だ}して\furigana{嘘}{うそ}をつきまくれ \\
+Creeping up behind armed as you kept getting fed by the lies with this red tongue of mine
+
+\subsection{Verse \#3}
+どんな\furigana{生贄}{いけにえ}だって\furigana{捧}{ささ}げよう \furigana{構}{かま}いやしない \\
+What kind of sacrifice would you be offering, I won't really give a damn \tlnotelink{7}
+
+\furigana{騙}{だま}される\furigana{方}{ほう}が\furigana{悪}{わる}いって\furigana{寺子屋}{てらこや}で\furigana{習}{なら}ったろ？ \\
 Haven't you already learned in school that it's bad to be tricked like that?
-**chorus**
-```
-カエセ、ウラオモテ　テンチ　サカサニ
-ドン底はサイコー！サイコーはサイテー！
-弱きものにカエセ、仮初の誇り償い
-出鱈目も上々　さあさあ、ゆくぞ！
 
-背を反らして天を地に落とせ　ニコニコ笑って悪態バラまけ
-手を振りかぶって真後ろに進め　赤い舌つき出して嘘をつきまくれ
-```
+\subsection{Chorus \#3}
+\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{ウ}{う}\furigana{ラ}{ら}\furigana{オ}{お}\furigana{モ}{も}\furigana{テ}{て}　\furigana{テ}{て}\furigana{ン}{ん}\furigana{チ}{ち}　\furigana{サ}{さ}\furigana{カ}{か}\furigana{サ}{さ}\furigana{ニ}{に} \\
+Flip it over! Front and back, up and down, inside out
 
-めちゃめちゃになれ、平穏なんて最低 \\
-```
-めちゃめちゃ: very/messy
-へいおん: peaceful/quiet (adjective)
-なんて: emphasize 平穏 negatively
-さいてい: worst
-(turn into chaos) (peaceful is the worst)
-```
-Let it fall into chaos, peaceful is the worst
+ドン\furigana{底}{そこ}は\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ー！\furigana{サ}{さ}\furigana{イ}{い}\furigana{コ}{こ}ーは\furigana{サ}{さ}\furigana{イ}{い}\furigana{テ}{て}ー！ \\
+Hitting rock-bottom truly is the best! the strongest will soon take my place!
 
-もっと泣きわめけ、下克上って最高 \\
-```
-もっと: (even) more
-なく: cry (adverb)
-わめく: scream/shout (verb)
-泣きわめく: cry/scream (phrasal verb in imperative form)
-げこくじょう: overthrow in authority (from inferiors)
-さいこう: the best
-(cry/scream even more) (overthrow in authority is the best)
-```
-Cry and scream your lungs out even more, overthrow in authority is the best
+\furigana{弱}{よわ}きものに\furigana{カ}{か}\furigana{エ}{え}\furigana{セ}{せ}、\furigana{仮初}{かりそめ}の\furigana{誇}{ほこ}り\furigana{償}{つぐな}い \\
+Overturning the weak, such an unfulfilling sense of satisfaction
 
-だって嘘だらけ、知ったこっちゃないね \\
-```
-だって: quotation/arguing expression
-うそ: lie (noun)
-だらけ: abundance expression (A leads to B which is obvious)
+\furigana{出鱈目}{でたらめ}も\furigana{上}{じょう}々　さあさあ、いくぞ！ \\
+This nonsense is the very best, let's go!
 
-しる: know (verb)
-こっちゃ: that thing (dialect)
-ないね: casual
-(_what was said_ was a lie) leads to (didn't care)-(which is obvious)
-```
-That was a lie, I really won't give a damn {8}
+\furigana{背}{せ}を\furigana{反}{す}らして\furigana{天}{てん}を\furigana{地}{ち}に\furigana{落}{お}とせ　\furigana{ニ}{に}\furigana{コ}{こ}\furigana{ニ}{に}\furigana{コ}{こ}\furigana{笑}{わら}って\furigana{悪態}{あくたい}\furigana{バラ}{ばら}まけ \\
+Bring the distant heavens down to earth, as I giggly sprout insults
+
+\furigana{手}{て}を\furigana{振}{ふ}りかぶって\furigana{真後}{まうし}ろに\furigana{進}{すす}め　\furigana{赤}{あか}い\furigana{舌}{した}つき\furigana{出}{だ}して\furigana{嘘}{うそ}をつきまくれ \\
+Creeping up behind armed as you kept getting fed by the lies with this red tongue of mine
+
+\subsection{Outro}
+めちゃめちゃになれ、\furigana{平穏}{へいおん}なんて\furigana{最低}{さいてい} \\
+Let it fall into chaos, tranquility is the worst
+
+もっと\furigana{泣}{なく}きわめけ、\furigana{下克上}{げこくじょう}って\furigana{最高}{さいこう} \\
+Cry and scream your lungs out even more, rebellions the best
+
+だって\furigana{嘘}{うそ}だらけ、\furigana{知}{し}ったこっちゃないね \\
+That was a lie because I really won't give a damn \tlnotelink{8}
 
 さあて、そろそろか おもしろくなるぞ \\
-```
-さあて: now (after last clause just finished)
-そろそろ: about time
-か: affirmation context
-
-おもしろい: interesting (adjective)
-なるぞ: casual, make/do smth interesting context
-(now then, it's about time to do/make things interesting)
-```
 Now then, it's about time to make things interesting
 
-{1} referencing the effects of the magical mallet --- a magical item that grants the user any wish they desire with an equally costly price, Seija's wish is to have the value and power of everything reversed, the strong becomes the weak and vice versa.
+\section{Translation notes}
+\tlnoteref{1}: Referencing the effects of the Miracle Mallet --- a magical item that grants the user any wish they desire with an equally costly price, Seija's wish is to have the value and power of everything reversed, the strong becomes the weak and vice versa.
 
-{2} retaliations from the other party, reaction to Seija's overturn. She takes it as compliments because insults seem to be an indicator of her successfully managed to riled up the order of power in Gensokyo
-Creepy showtime: can be an analogy to the overturn of the weak(seija), as seija considers the this overturn and revolution a show or spectacle, and she's quite self aware of her specie-amanojaku to be lowlives and quite outlandish
+\tlnoteref{2}: Retaliations from the other party, reaction to Seija's overturn. She takes it as compliments because insults seem to be an indicator of her successfully managed to riled up the order of power in Gensokyo \\
+Creepy show time can be an analogy to the overturn of the weak(seija), as seija considers the this overturn and revolution a show or spectacle, and she's quite self aware of her specie --- amanojaku to be lowlifes and quite outlandish
 
-{3}: a small insect as small as an inch has a soul that is half of that. It's a analogy to that every person no matter how big or small they are have their own willpower and guts, so never underestimate anyone. More here https://word-dictionary.jp/posts/1036
+\tlnoteref{3}: A small insect as small as an inch has a soul that is half of that. It's a analogy to that every person no matter how big or small they are have their own willpower and guts, so never underestimate anyone. More can be found \href{https://word-dictionary.jp/posts/1036}{here}
 
-{4} this is sukuna talking, prolly right after seija has successfully tricked her
+\tlnoteref{4}: This is Sukuna talking, probably right after seija has successfully tricked her
 
-{5} wordplay on her being rockbottom will soon be strongest by the power of the magical mallet, and the strongest youkais in gensokyo will become the weakest because of the mallet.
+\tlnoteref{6}: This is now Seija's talking instead of Seija. She's using keigo now, a complete opposite of her normal personality, portraying the duality and amanojaku's trickster habits
 
-{6} this is now seija's talking instead of seija. she's using keigo now, a complete opposite of her normal personality, portraying the duality and amanojaku's trickster habits
+\tlnoteref{5}: Wordplay on her being rock-bottom will soon be strongest by the power of the Miracle Mallet, and the strongest youkais in gensokyo will become the weakest because of the mallet.
 
-{7} sukuna learning in the temple/possibly having upbringing with loyalty
+\tlnoteref{7}\tlnoteref{8}: I decided to have `really' to be in different places in the sentences to portray the difference in uncertainty in Seija's speech, first one being her carefree attitude before the effects of the Miracle Mallet coming into play, second one displaying certainty in her character as she's set on the road of stealing the mallet/close to activating the mallet's power
 
-{8} I decided to have 'really' to be in different places in the sentences to portray the difference in uncertainty in seija's speech, first one being her carefree attitude before the effects of the magical mallet coming into play, second one displaying certainty in her character as she's set on the road of stealing the mallet/close to activating the mallet's power
+Personal translator's note: Definitely the hardest one to crack because of the constant change of POV and also with the way Seija referencing opposite sides along with the song's general topic/theme of duality. The lyrics this time is also riddled with katakana to emphasize parts of Seija's dialogue, which needs to be transformed into English with words with a more intense meaning, I thought about using weird capitalization but on second thought it wouldn't really make sense to the readers both contextually and aesthetically and decided to just put hiragana/furigana on top.
 
-Definitely the hardest one to crack because of the constant change of POV and also with the way seija referencing opposite sides along with the song's general topic/theme of duality. The lyrics this time is also riddled with katakata to emphasize parts of Seija's dialogue, which needs to be transformed into english with words with a more intense meaning, I thought about using weird capitalization but on second thought it wouldn't really make sense to the readers both contextually and aesthetically.
-
-Note on Seija: Seija uses a *lot* of imperative due to her commanding manners after realizing she now wields the power and strength of the magical mallet, also due to her rotten personality and nature as a trickster/mischievous amanojaku.
+Note on Seija: Seija uses a \emph{lot} of imperative verbs due to her commanding manners after realizing she now wields the power and strength of the Miracle Mallet, also due to her rotten personality and nature as a trickster/mischievous amanojaku.
+\end{document}

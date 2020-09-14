@@ -20,7 +20,7 @@ unable to know/how can you know this (the ignorant)
 
                 しんじつ: truth (noun)
                   ここ: here
-                        こく: hear (verb)
+                        きく: hear (verb)
                             まで: until (time and abstract location context)
 (I did not know about anything) + (until (I) hear about it here) + (the truth)
 ```
@@ -259,8 +259,9 @@ Eventually
 さえ: even if
 抗う (あらが): oppose/object/go against (verb)
 ちから: force/strength (noun)
-(against fate) (even if )
+((even) against fate) (opposing force)
 ```
+
 夜は明けて　朝は息吹く
 ```
 よる: night (noun)

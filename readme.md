@@ -28,15 +28,15 @@
 - [祈りの器](祈りの器/祈りの器.pdf)
 - [浮珠形ノ運命線 ～ White Spirit, Ultra Red](White_Spirit_Ultra_Red/White_Spirit_Ultra_Red.pdf)
 - [天磐船ヨ天ヘ昇レ](天磐船ヨ天ヘ昇レ/天磐船ヨ天ヘ昇レ.pdf)
+- [乱-Ran-](乱-Ran-/乱-Ran-.pdf)
+- [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.pdf)
 
 # Other articles in progress
 
 ## Structure breakdown
-- [完全超悪アマノジャク](完全超悪アマノジャク/完全超悪アマノジャク.md)
 
 ## Translation and context/literature
 - [天色の四季](天色の四季/天色の四季.md)
-- [乱-Ran-](乱-Ran-/乱-Ran-.md)
 
 ## Postponed
 - [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)

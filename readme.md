@@ -36,15 +36,15 @@
 ## Structure breakdown
 
 ## Translation and context/literature
-- [天色の四季](天色の四季/天色の四季.md)
-- [アンフルフィルド・プロミス～果たされない約束](アンフルフィルド・プロミス～果たされない約束/アンフルフィルド・プロミス～果たされない約束.md)
-- [「心綺楼」](「心綺楼」/「心綺楼」.md)
 
 ## Postponed
 - [Ashes To Ashes](Ashes_To_Ashes/Ashes_To_Ashes.md)
 
 ## To proofcheck
+- [天色の四季](天色の四季/天色の四季.md)
+- [アンフルフィルド・プロミス～果たされない約束](アンフルフィルド・プロミス～果たされない約束/アンフルフィルド・プロミス～果たされない約束.md)
 
 ## Almost done/Metadata/TeX port
+- [「心綺楼」](「心綺楼」/「心綺楼」.md)
 
 ## Translation and closing notes

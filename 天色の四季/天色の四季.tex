@@ -1,0 +1,218 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\tlnotelink}[1]{\hyperlink{#1tonote}{[#1]}\hypertarget{#1}{}}
+\newcommand{\tlnoteref}[1]{\hypertarget{#1tonote}{}\hyperlink{#1}{[#1]}}
+
+\setlength{\parskip}{0.4em}
+
+\title{天色の四季 \\ Weather of the four seasons \tlnotelink{weather}}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\section{Origin}
+\noindent Original game: 东方天空璋 ～ Hidden Star in Four Seasons. \\
+Original title: 魔法の笠地蔵 \\
+Theme: Stage 4 BOSS --- Yatadera Narumi's (矢田寺成美) theme \\
+Original title: 一対の神獣 \\
+Theme: Stage 3 BOSS --- Komani Aunn's (高麗野 あうん) theme \\
+Original title: 秘匿されたフォーシーズンズ \\
+Theme: Stage 6 BOSS --- Matara Okina's (摩多羅 隠岐奈) theme
+
+\section{Summary}
+
+\pagebreak
+\section{Lyric}
+\subsection{Verse \#1}
+\furigana{旅}{たび}\furigana{立}{たつ}ちを\furigana{告}{し}げる\furigana{日差}{ひざ}し \\
+The sunlight marks the start of our journey
+
+\furigana{映}{は}える\furigana{草}{くさ}\furigana{萌}{も}えのコントラスト \\
+The contrast of the shining grass buds
+
+\furigana{目覚}{めざ}め\furigana{際}{きわ}の\furigana{鮮}{あざ}やかな\furigana{夢}{ゆめ}は \\
+verge of waking up from this bright dream
+
+まるで\furigana{走馬灯}{そうまとう}のように \\
+really as if they were flashing before my eyes
+
+\furigana{天色}{あまいろ}の\furigana{四季}{しき}を\furigana{走}{はし}り\furigana{抜}{ぬ}けてく \\
+The four seasons' weather come and go
+
+\furigana{幻想}{げんそう}\furigana{機関車}{きかんしゃ}の\furigana{汽笛}{きてき} \\
+This illusion's heart and soul \tlnotelink{steam}
+
+\subsection{Chorus \#1}
+\furigana{焼}{や}き\furigana{付}{つ}けて　もう\furigana{巡}{めぐ}らない\furigana{今}{いま}を \\
+burn the currently already standing still season into your memories
+
+\furigana{同}{おな}じ\furigana{季節}{きせつ}は\furigana{二度}{にど}と\furigana{来}{こ}ない \\
+the same season that never comes/happen again/never be back
+
+\furigana{重}{かさ}なる\furigana{瞬間}{しゅんかん}　\furigana{連}{つら}なる\furigana{時空}{じくう} \\
+these piled up moments that connects space and time/life
+
+その\furigana{狭間}{はざま}に\furigana{生}{い}きて \\
+line
+
+\furigana{忘}{わす}れても、\furigana{失}{うしな}うわけじゃない \\
+(but because you forgot that you lose) + (not)
+
+\furigana{天色}{あまいろ}の\furigana{四季}{しき}に\furigana{虹}{にじ}がかかる \\
+(color of 4 seasons) + (comes into view)
+\subsection{Verse \#2}
+うだる\furigana{暑}{あつ}さの\furigana{遠}{とお}い\furigana{日々}{ひび}は \\
+(as for boiling heat in the coming days)
+
+\furigana{永遠}{えいえん}そのものだったのに \\
+(eternity, even though it was the case)
+
+あのころ、\furigana{特別}{とくべつ}だったものは \\
+those days were special
+
+ぜんぶ\furigana{色褪}{いろあ}せてしまった \\
+when everything has faded away
+
+\furigana{天色}{あまいろ}の\furigana{四季}{しき}を\furigana{走}{はし}り\furigana{抜}{ぬ}けてく \\
+(the colors of the four seasons) + (come and go)
+
+\furigana{幻想}{げんそう}\furigana{機関車}{きかんしゃ}に\furigana{乗}{の}り \\
+line
+\subsection{Chorus \#2}
+\furigana{焼}{や}き\furigana{付}{つ}けて　もう\furigana{巡}{めぐ}らない\furigana{今}{いま}を \\
+(burn into your memories) + (the currently already standing still season)
+
+\furigana{同}{おな}じ\furigana{季節}{きせつ}は\furigana{二度}{にど}と\furigana{来}{こ}ない \\
+(the same season) + (never comes/happen again/never be back)
+
+\furigana{重}{かさ}なる\furigana{瞬間}{しゅんかん}　\furigana{連}{つら}なる\furigana{時空}{じくう} \\
+(these piled up moments) + (that connects space and time/life)
+
+その\furigana{狭間}{はざま}に\furigana{生}{い}きて \\
+Live in this space (referring to piled up moments) and
+
+いつのまにか\furigana{遠}{とお}くに\furigana{来}{き}たね \\
+before you notice, you've come far
+
+\furigana{天色}{あまいろ}の\furigana{四季}{しき}に\furigana{虹}{にじ}がかかる \\
+THe color of 4 seasons comes into view
+
+\subsection{Verse \#3}
+\furigana{遠}{おと}ざかる\furigana{線路}{せんろ}に\furigana{残}{のこ}した\furigana{記憶}{きおく} \\
+The memory that was left behind (on the fading railway)
+
+\furigana{笑}{わら}って\furigana{手}{て}を\furigana{振}{ふ}っていたよ \\
+your laughter as you were waving your hand
+
+そして　\furigana{新}{あたら}しい\furigana{景色}{けしき}と\furigana{出逢}{であ}う \\
+as (you) encounter a new scenery
+
+やがて　\furigana{汽車}{きしゃ}が\furigana{止}{と}まるときまで \\
+(eventually, until the (imaginary train) stops)
+
+ひとつひとつを\furigana{目}{め}に\furigana{焼}{や}きつけ
+take turn + remember them clearly + (every single one of them)
+
+ほら、\furigana{今日}{きょう}も\furigana{初}{はじ}めての\furigana{季節}{きせつ}
+Look, today is already the start of a new season
+
+\furigana{天色}{あまいろ}の\furigana{四季}{しき}に\furigana{虹}{にじ}がかかる \\
+(color of 4 seasons) + (comes into view)
+
+\section{Translator's note}
+\tlnoteref{color} duality between weather and color
+
+\tlnoteref{steam} 機関車の汽笛 is metaphor --- core of smth
+\end{document}

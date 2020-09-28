@@ -1,0 +1,219 @@
+%!TEX TS-program = xelatex
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xeCJK}
+\usepackage{ruby}
+\setCJKmainfont{NotoSansJP-Light.otf}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{indentfirst}
+\usepackage[linktoc=all]{hyperref}
+% characters with big height and depth
+% to give different boxes the same vertical size
+\newcommand{\vsizecorrectorhira}{\vphantom{もりぼゃ}}% epkyouka, HanaMinA
+\newcommand{\vsizecorrectorkanji}{\vphantom{$\vert$}}
+
+% commands for setting furigana below kanji
+\newcommand{\furiganaBelow}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furiganaAboveBelow}[3]{% #1: kanji, #2: furigana above, #3: furigana below
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana-above)[
+            above of=kanji,
+            node distance=1em,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #2%
+        };
+        \node(furigana-below)[
+            below of=kanji,
+            node distance=1em-2pt,
+            inner sep=0,
+        ] {%
+            \tiny%
+            \vsizecorrectorhira%
+            #3%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\furigana}[2]{% #1: kanji, #2: furigana
+    %\unskip
+    \begin{tikzpicture}[baseline=(kanji.base)]
+        \node(kanji)[
+            inner sep=0,
+        ] {
+            \vsizecorrectorkanji%
+            #1%
+        };
+        \node(furigana)[
+            above of=kanji,
+            node distance=1em-0pt,
+            inner sep=0,
+        ] {%
+            \scriptsize%
+            \vsizecorrectorhira%
+            #2%
+        };
+    \end{tikzpicture}%
+    %\ignorespaces
+}
+
+\newcommand{\tlnotelink}[1]{\hyperlink{#1tonote}{[#1]}\hypertarget{#1}{}}
+\newcommand{\tlnoteref}[1]{\hypertarget{#1tonote}{}\hyperlink{#1}{[#1]}}
+
+\setlength{\parskip}{0.4em}
+
+\title{アンフルフィルド・プロミス～果たされない約束 \\ Unfulfilled Promise}
+\author{Original Source: 暁records --- Translated by: Othi}
+\begin{document}
+\section{Origin}
+\noindent Original game: 東方永夜抄　～　Imperishable Night \\
+Original title: 月まで届け、不死の煙　~　Reach for the Moon, Immortal Smoke \\
+Theme: Extra Stage BOSS --- Fujiwara no Mokou's (藤原　妹紅) theme
+
+\section{Summary}
+The continuation of the previous song あさきゆめみし
+Sung by Fujiwara no Mokou
+
+\pagebreak
+\section{Lyric}
+\subsection{Chorus \#1}
+ならば、\furigana{誓}{ちか}おう　この\furigana{世}{よ}\furigana{果}{は}てるとも \\
+Then, swear to me, even if this is the end of the world \tlnotelink{1}
+
+あなたの\furigana{傍}{そば}で　\furigana{闇}{やみ}\furigana{照}{てら}らす　\furigana{炎}{ほのお}でいると \\
+With my flame I'll light up the darkness around you
+
+\furigana{果}{あ}たされない\furigana{約束}{やくそく}をしよう \\
+Let's make the unfulfilled promise
+
+\furigana{死}{し}だけが\furigana{知}{し}る　\furigana{二人}{ふたり}の\furigana{契}{ちぎ}り\furigana{行}{ゆ}く\furigana{末}{すえ}を \\
+Only death knows how such promise would end up \tlnotelink{2}
+
+\subsection{Verse \#1}
+\furigana{怒}{いか}りは\furigana{永}{なが}い\furigana{年月}{としつき}に\furigana{晒}{さら}されて\furigana{熱}{ねつ}を\furigana{失}{うしな}う \\
+Furor after months and years has lost its intensity
+
+\furigana{憎}{にく}しみは\furigana{深}{ふか}い\furigana{悲}{かな}しみに\furigana{覆}{おお}われて\furigana{枯}{か}れていった \\
+Hatred was whithering away and covered in deep sadness
+
+いずれなにもかも　\furigana{消}{き}え\furigana{失}{お}せる \\
+Eventually everything will perish
+
+\furigana{残}{のこ}るのは　私と\furigana{月}{つき}の\furigana{涙}{なみだ}\furigana{雫}{しずく}、 \\
+All that's left behind is me and the moon's teardrops \tlnotelink{3}
+
+\subsection{Chorus \#2}
+ならば、\furigana{誓}{ちか}おう　この\furigana{世}{よ}\furigana{果}{は}てるとも \\
+Then, swear to me, even if this is the end of the world \tlnotelink{1}
+
+あなたの\furigana{傍}{そば}で　\furigana{闇}{やみ}\furigana{照}{てら}らす　\furigana{炎}{ほのお}でいると \\
+With my flame I'll light up the darkness around you
+
+\furigana{果}{あ}たされない\furigana{約束}{やくそく}をしよう \\
+Let's make the unfulfilled promise
+
+\furigana{死}{し}だけが\furigana{知}{し}る　\furigana{二人}{ふたり}の\furigana{契}{ちぎ}り\furigana{行}{ゆ}く\furigana{末}{すえ}を \\
+Only death knows how such promise would end up \tlnotelink{2}
+
+\subsection{Verse \#2}
+\furigana{永遠}{えいえん}だって\furigana{言}{い}うよ　\furigana{百万遍}{ひゃくまんべん}、\furigana{飽}{あ}きるほどに \\
+Eternity, that's right; I'll say it a million times, until you're tired of it
+
+\furigana{嘘}{うそ}かどうか\furigana{確}{たし}かめてみようか？ \\
+Let's see whether or not it's a farce
+
+\furigana{灰}{はい}も\furigana{残}{のこ}らないくらいに\furigana{熱}{あつ}く\furigana{抱}{いだ}いて \\
+I'll give you my burning embrace that would not even leave your ash behind \tlnotelink{4}
+
+\furigana{肉}{にく}\furigana{体}{たい}に\furigana{縛}{しば}られ \\
+Restrained body and flesh
+
+\furigana{触}{ふ}れ\furigana{合}{あ}えない　\furigana{魂}{たまし}はただ\furigana{求}{もと}めあって \\
+We can't touch each other --- the only thing that I crave for
+
+\subsection{Chorus \#3}
+ねえ、\furigana{殺}{ころ}して。 \\
+Hey, kill me
+
+いつか\furigana{突然}{とつぜん}に\furigana{別}{わか}れが\furigana{来}{き}たら \\
+When the day of our sudden parting comes
+
+\furigana{眠}{ねむ}ったままに\furigana{抱}{だ}きしめて
+I'll give the sleeping you a tight embrace \tlnotelink{6}
+
+\furigana{果}{は}たされない\furigana{約束}{やくそく}をしよう \\
+Let's make the unfulfilled promise
+
+「私は、あなたを\furigana{殺}{ころ}すまでは\furigana{絶対}{ぜったい}に\furigana{死}{し}なない」 \\
+Don't you dare die before I get to kill you \tlnotelink{5}
+
+\subsection{Outro}
+\ldots どうかこのままUnfulfilled Promise \\
+Such unfulfilled promise like this
+
+\ldots\furigana{二人}{ふたり}を\furigana{繋}{つな}ぐUnfulfilled Promise \\
+The unfulfilled promise that links us two
+
+\furigana{夢}{ゆめ}だって　\furigana{嘘}{うそ}だって　\furigana{構}{かま}わない \\
+Since it's a dream, since it's a lie, I don't care
+
+\furigana{今}{いま}\furigana{感}{かん}じている　\furigana{温}{ぬく}もりだけが\furigana{真実}{しんじつ}で \\
+What you're feeling now; only this warmth is real
+
+\furigana{果}{は}たされない\furigana{約束}{やくそく}が\furigana{欲}{ほ}しいって？ \\
+Do you want this unfulfilled promise then?
+
+「あなたを\furigana{愛}{あい}す、 \\
+「I love you,
+
+　　　　　　　\furigana{死}{し}がふたりを\furigana{分}{わ}かつときまで」 \\
+`till death do us apart」 \tlnotelink{7}
+
+\section{Translation notes}
+\tlnoteref{1}: song starting with the chorus, might be a coincidence or to be a continuation of あさきゆめみし
+
+\tlnoteref{2}: only death knows what will happen to the promise as death is the equalizer of both individual
+
+\tlnoteref{3}: kaguya and moon
+
+\tlnoteref{4}: firebird
+
+\tlnoteref{5}: from kaguya
+
+\tlnoteref{6}: kill context
+
+\tlnoteref{7}: example of the previous line aka unfulfilled promise. Half truth, the first line is straight up impossible, the 2nd line can be freely inferred as however the listener/reader sees fit.
+\end{document}
